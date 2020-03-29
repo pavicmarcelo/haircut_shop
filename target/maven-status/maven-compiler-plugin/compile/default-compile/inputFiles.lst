@@ -1,0 +1,9 @@
+/home/sfinga/Documents/HaircutShopApp/src/main/java/com/example/demo/dto/HaircutShop.java
+/home/sfinga/Documents/HaircutShopApp/src/main/java/com/example/demo/HaircutShopApplication.java
+/home/sfinga/Documents/HaircutShopApp/src/main/java/com/example/demo/repository/UserRepository.java
+/home/sfinga/Documents/HaircutShopApp/src/main/java/com/example/demo/services/interfaces/HaircutShopService.java
+/home/sfinga/Documents/HaircutShopApp/src/main/java/com/example/demo/services/impl/HaircutShopServiceImpl.java
+/home/sfinga/Documents/HaircutShopApp/src/main/java/com/example/demo/services/interfaces/UserService.java
+/home/sfinga/Documents/HaircutShopApp/src/main/java/com/example/demo/dto/Users.java
+/home/sfinga/Documents/HaircutShopApp/src/main/java/com/example/demo/services/impl/UserServiceImpl.java
+/home/sfinga/Documents/HaircutShopApp/src/main/java/com/example/demo/repository/HaircutShopRepository.java
