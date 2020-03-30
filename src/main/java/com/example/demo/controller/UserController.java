@@ -46,6 +46,13 @@ public class UserController {
     }
 
 
+    @RequestMapping(value = "/users/{id}/password/update", method = RequestMethod.PUT, produces = "application/json;charset=UTF-8", consumes = "application/json;")
+    public @ResponseBody
+    void updateUserPassword(@PathVariable(value = "id") Integer userId, @RequestBody Users users) {
+
+        userService.updateUsersPassword(userId, users.getPassword());
+
+    }
 
 /*
     @RequestMapping(value = "/create-user", method = RequestMethod.POST, produces = "application/json;charset=UTF-8", consumes = "application/json;")
