@@ -33,7 +33,7 @@ public class UserController {
     @RequestMapping(value = "/users", method = RequestMethod.GET, produces = "application/json;charset=UTF-8")
     public List<Users> getAllUsers() {
 
-        return  userRepository.findAll();
+        return userRepository.findAll();
 
     }
 
@@ -54,6 +54,17 @@ public class UserController {
 
     }
 
+
+    @RequestMapping(value = "/users/{id}", method = RequestMethod.DELETE, produces = "application/json;charset=UTF-8")
+    public void deleteUserById(
+            @PathVariable(value = "id") final Integer userId) {
+
+        userService.deleteUserByUserId(userId);
+
+    }
+
+
+
 /*
     @RequestMapping(value = "/create-user", method = RequestMethod.POST, produces = "application/json;charset=UTF-8", consumes = "application/json;")
     public @ResponseBody
@@ -63,13 +74,6 @@ public class UserController {
 
     }
 
-
-    @RequestMapping(value = "/users/{id}", method = RequestMethod.DELETE, produces = "application/json;charset=UTF-8")
-
-    public void deleteUserById(
-            @PathVariable(value = "id") final Integer userId) {
-
-    }
 
 
 

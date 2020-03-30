@@ -31,6 +31,7 @@
             <column name="haircut_shop_password" type="varchar(255)">
                 <constraints nullable="false" unique="false"/>
             </column>
+
         </createTable>
     </changeSet>
 
