@@ -82,9 +82,6 @@ public class UserController {
     }
 
 
-
-
-
     @RequestMapping(value = "/users/{id}", method = RequestMethod.PUT, produces = "application/json;charset=UTF-8")
     public void updateUserPassword(
             @PathVariable(value = "id") final Integer userId, String password) {
