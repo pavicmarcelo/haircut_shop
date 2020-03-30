@@ -5,7 +5,6 @@ import lombok.*;
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 
-
 @NoArgsConstructor
 @AllArgsConstructor
 @Table(name = "users")
@@ -24,7 +23,6 @@ public class Users {
     @Column(name = "phone_number")
     String phoneNumber;
     String password;
-
 
 }
 

@@ -21,6 +21,23 @@ public class UserController {
     @Autowired
     UserRepository userRepository;
 
+
+    @RequestMapping(value = "/users/{id}", method = RequestMethod.DELETE, produces = "application/json;charset=UTF-8")
+    public void deleteUserById(
+            @PathVariable(value = "id") final Integer userId) {
+
+        userService.deleteUserByUserId(userId);
+
+    }
+
+    @RequestMapping(value = "/users/{id}/password/update", method = RequestMethod.PUT, produces = "application/json;charset=UTF-8", consumes = "application/json;")
+    public @ResponseBody
+    void updateUserPassword(@PathVariable(value = "id") Integer userId, @RequestBody Users users) {
+
+        userService.updateUsersPassword(userId, users.getPassword());
+
+    }
+
     @RequestMapping(value = "/users/{id}", method = RequestMethod.GET, produces = "application/json;charset=UTF-8")
 
     public Users getUserById(
@@ -46,22 +63,10 @@ public class UserController {
     }
 
 
-    @RequestMapping(value = "/users/{id}/password/update", method = RequestMethod.PUT, produces = "application/json;charset=UTF-8", consumes = "application/json;")
-    public @ResponseBody
-    void updateUserPassword(@PathVariable(value = "id") Integer userId, @RequestBody Users users) {
-
-        userService.updateUsersPassword(userId, users.getPassword());
-
-    }
 
 
-    @RequestMapping(value = "/users/{id}", method = RequestMethod.DELETE, produces = "application/json;charset=UTF-8")
-    public void deleteUserById(
-            @PathVariable(value = "id") final Integer userId) {
 
-        userService.deleteUserByUserId(userId);
 
-    }
 
 
 
