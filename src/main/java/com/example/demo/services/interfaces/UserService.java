@@ -24,7 +24,7 @@ public interface UserService {
 
     void updateEmail(Integer userId, String email);
 
-    void updatePassword(Integer userId, String password);
+    void updateUsersPassword(Integer userId, String password);
 
     List<Users> fetchUserInfo();
 

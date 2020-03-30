@@ -93,12 +93,12 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public void updatePassword(Integer userId, String password) {
+    public void updateUsersPassword(Integer userId, String password) {
 
         if (password != null) {
-            userRepository.findUserByUserId(userId).setPassword(password);
-        }
 
+            userRepository.updateUserPassword(passHashed(password), userId);
+        }
 
     }
 
