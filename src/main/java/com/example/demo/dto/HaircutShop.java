@@ -1,7 +1,9 @@
 package com.example.demo.dto;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -15,7 +17,6 @@ import javax.validation.constraints.NotNull;
 @Entity
 @NotNull
 public class HaircutShop {
-
 
     @Id
     @Column(name = "haircut_shop_id")
@@ -34,6 +35,5 @@ public class HaircutShop {
     String haircutShopPrices;
     @Column(name = "haircut_shop_password")
     String haircutShopPassword;
-
 
 }

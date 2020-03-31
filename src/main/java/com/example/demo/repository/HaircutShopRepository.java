@@ -6,7 +6,9 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
 
-public interface HaircutShopRepository extends JpaRepository <HaircutShop, Integer> {
+public interface HaircutShopRepository extends JpaRepository<HaircutShop, Integer> {
+
+    HaircutShop deleteHaircutShopByHaircutShopId(Integer haircutShopId);
 
     HaircutShop findHaircutShopByHaircutShopId(Integer haircutShopId);
 
@@ -15,7 +17,5 @@ public interface HaircutShopRepository extends JpaRepository <HaircutShop, Integ
     List<HaircutShop> findHaircutShopByHaircutShopWorkTime(String workTime);
 
     List<HaircutShop> findHaircutShopByHaircutShopPrices(Double price);
-
-    HaircutShop deleteHaircutShopByHaircutShopId(Integer haircutShopId);
 
 }

@@ -24,6 +24,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public void saveUser(Users users) {
+
         createUser(users);
     }
 
@@ -96,7 +97,7 @@ public class UserServiceImpl implements UserService {
 
 
     @Override
-    public List<Users> fetchUserInfo() {
+    public List<Users> fetchAllUsers() {
 
         if (StringUtils.isEmpty(users.getName()) || StringUtils.isEmpty(users.getEmail())) {
 

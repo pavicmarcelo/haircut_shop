@@ -7,15 +7,7 @@ import java.util.List;
 
 public interface HaircutShopService {
 
-    HaircutShop fetchHaircutShopByHaircutShopId(Integer haircutShopId);
-
-    List<HaircutShop> fetchHaircutShopByName(String haircutShopName);
-
     void createNewHaircutShop(HaircutShop haircutShop);
-
-    List<HaircutShop> fetchHaircutShopByWorkTime(String workTime);
-
-    List<HaircutShop> fetchHaircutShopByPrice(Double price);
 
     void deleteHaircutShop(Integer haircutShopId);
 
@@ -27,5 +19,12 @@ public interface HaircutShopService {
 
     void updatePassword(Integer haircutShopId, String password);
 
+    HaircutShop fetchHaircutShopByHaircutShopId(Integer haircutShopId);
+
+    List<HaircutShop> fetchHaircutShopByName(String haircutShopName);
+
+    List<HaircutShop> fetchHaircutShopByWorkTime(String workTime);
+
+    List<HaircutShop> fetchHaircutShopByPrice(Double price);
 
 }
