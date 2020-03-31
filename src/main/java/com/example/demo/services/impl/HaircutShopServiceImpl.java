@@ -17,11 +17,47 @@ public class HaircutShopServiceImpl implements HaircutShopService {
 
 
     @Override
+    public void createNewHaircutShop(HaircutShop haircutShop) {
+
+        haircutShopRepository.save(haircutShop);
+
+    }
+
+    @Override
+    public void deleteHaircutShop(Integer haircutShopId) {
+
+        haircutShopRepository.deleteHaircutShopByHaircutShopId(haircutShopId);
+
+    }
+
+    @Override
+    public void updatePhoneNumber(Integer haircutShopId, String phoneNumber) {
+
+    }
+
+    @Override
+    public void updateEmail(Integer haircutShopId, String email) {
+
+
+    }
+
+    @Override
+    public void updateAddress(Integer haircutShopId, String address) {
+
+
+    }
+
+    @Override
+    public void updatePassword(Integer haircutShopId, String password) {
+
+    }
+
+    @Override
     public HaircutShop fetchHaircutShopByHaircutShopId(Integer haircutShopId) {
 
         if (haircutShopId != null) {
 
-           HaircutShop fetchedHaircutShopByHaircutShopId = haircutShopRepository.findHaircutShopByHaircutShopId(haircutShopId);
+            HaircutShop fetchedHaircutShopByHaircutShopId = haircutShopRepository.findHaircutShopByHaircutShopId(haircutShopId);
 
             return fetchedHaircutShopByHaircutShopId;
         }
@@ -41,13 +77,6 @@ public class HaircutShopServiceImpl implements HaircutShopService {
         }
 
         return null;
-    }
-
-    @Override
-    public void createNewHaircutShop(HaircutShop haircutShop) {
-
-        haircutShopRepository.save(haircutShop);
-
     }
 
 
@@ -78,36 +107,4 @@ public class HaircutShopServiceImpl implements HaircutShopService {
     }
 
 
-    @Override
-    public void deleteHaircutShop(Integer haircutShopId) {
-
-            haircutShopRepository.deleteHaircutShopByHaircutShopId(haircutShopId);
-
-
-        }
-
-
-    @Override
-    public void updatePhoneNumber(Integer haircutShopId, String phoneNumber) {
-
-
-
-    }
-
-    @Override
-    public void updateEmail(Integer haircutShopId, String email) {
-
-
-    }
-
-    @Override
-    public void updateAddress(Integer haircutShopId, String address) {
-
-
-    }
-
-    @Override
-    public void updatePassword(Integer haircutShopId, String password) {
-
-    }
 }
