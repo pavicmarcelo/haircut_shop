@@ -17,7 +17,9 @@
             <column name="email" type="String"/>
             <column name="phone_number" type="String"/>
             <column name="password" type="String"/>
+
         </loadData>
+
     </changeSet>
 
 

@@ -10,22 +10,23 @@ import javax.transaction.Transactional;
 import java.util.List;
 
 
-
-public interface UserRepository extends JpaRepository <Users,Integer> {
+public interface UserRepository extends JpaRepository<Users, Integer> {
 
     @Modifying(clearAutomatically = true)
     @Transactional
     @Query("UPDATE Users u set u.password = :password WHERE u.userId = :user_id")
     int updateUserPassword(@Param("password") String password, @Param("user_id") Integer userId);
 
+    void deleteUsersByUserId(Integer userId);
+
+
     Users findUserByUserId(Integer userId);
 
-    List <Users> findUsersByName (String name);
+    List<Users> findUsersByName(String name);
 
-    void deleteUsersByUserId(Integer userId);
 
     String findUsersByPhoneNumber(String phoneNumber);
 
-    List<Users> findUsersByEmail (String email);
+    List<Users> findUsersByEmail(String email);
 
 }

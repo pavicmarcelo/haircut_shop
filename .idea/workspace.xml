@@ -5,8 +5,16 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/services/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/services/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/services/interfaces/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/services/interfaces/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/HaircutShopApp.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-develop.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-develop.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-prod.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-prod.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-test.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/changelog/create-haircutShop-table.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db/changelog/create-haircutShop-table.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/changelog/create-user-table.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db/changelog/create-user-table.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/changelog/fill-user-table-with-users.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db/changelog/fill-user-table-with-users.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/changelog/import-users-into-user-table.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db/changelog/import-users-into-user-table.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/liquibase-changelog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db/liquibase-changelog.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +45,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="creating_user_password_update" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -165,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585501075391</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Creating hashed user password and updating user password.">
+      <created>1585579166661</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1585579166661</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,7 +188,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First use of git, first commit and push." />
-    <option name="LAST_COMMIT_MESSAGE" value="First use of git, first commit and push." />
+    <MESSAGE value="Creating hashed user password and updating user password." />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating hashed user password and updating user password." />
   </component>
   <component name="WindowStateProjectService">
     <state x="311" y="58" width="800" height="677" key="#Assign_Data_Sources" timestamp="1585328326023">
@@ -208,38 +224,38 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="710" y="284" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1585500694965" />
-    <state width="1253" height="270" key="GridCell.Tab.0.bottom" timestamp="1585578883241">
+    <state width="1253" height="136" key="GridCell.Tab.0.bottom" timestamp="1585595189843">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="270" key="GridCell.Tab.0.bottom/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1585578883241" />
-    <state width="1253" height="270" key="GridCell.Tab.0.center" timestamp="1585578883241">
+    <state width="1253" height="136" key="GridCell.Tab.0.bottom/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1585595189843" />
+    <state width="1253" height="136" key="GridCell.Tab.0.center" timestamp="1585595189842">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="270" key="GridCell.Tab.0.center/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1585578883241" />
-    <state width="1253" height="270" key="GridCell.Tab.0.left" timestamp="1585578883240">
+    <state width="1253" height="136" key="GridCell.Tab.0.center/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1585595189842" />
+    <state width="1253" height="136" key="GridCell.Tab.0.left" timestamp="1585595189842">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="270" key="GridCell.Tab.0.left/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1585578883240" />
-    <state width="1253" height="270" key="GridCell.Tab.0.right" timestamp="1585578883241">
+    <state width="1253" height="136" key="GridCell.Tab.0.left/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1585595189842" />
+    <state width="1253" height="136" key="GridCell.Tab.0.right" timestamp="1585595189843">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="270" key="GridCell.Tab.0.right/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1585578883241" />
-    <state width="1253" height="270" key="GridCell.Tab.1.bottom" timestamp="1585578883242">
+    <state width="1253" height="136" key="GridCell.Tab.0.right/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1585595189843" />
+    <state width="1253" height="136" key="GridCell.Tab.1.bottom" timestamp="1585595189844">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="270" key="GridCell.Tab.1.bottom/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1585578883242" />
-    <state width="1253" height="270" key="GridCell.Tab.1.center" timestamp="1585578883241">
+    <state width="1253" height="136" key="GridCell.Tab.1.bottom/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1585595189844" />
+    <state width="1253" height="136" key="GridCell.Tab.1.center" timestamp="1585595189843">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="270" key="GridCell.Tab.1.center/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1585578883241" />
-    <state width="1253" height="270" key="GridCell.Tab.1.left" timestamp="1585578883241">
+    <state width="1253" height="136" key="GridCell.Tab.1.center/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1585595189843" />
+    <state width="1253" height="136" key="GridCell.Tab.1.left" timestamp="1585595189843">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="270" key="GridCell.Tab.1.left/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1585578883241" />
-    <state width="1253" height="270" key="GridCell.Tab.1.right" timestamp="1585578883241">
+    <state width="1253" height="136" key="GridCell.Tab.1.left/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1585595189843" />
+    <state width="1253" height="136" key="GridCell.Tab.1.right" timestamp="1585595189843">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="270" key="GridCell.Tab.1.right/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1585578883241" />
+    <state width="1253" height="136" key="GridCell.Tab.1.right/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1585595189843" />
     <state width="1253" height="131" key="GridCell.Tab.2.bottom" timestamp="1585333921287">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
