@@ -63,9 +63,12 @@ public class UserController {
     }
 
 
+    @RequestMapping(method = RequestMethod.GET, produces = "application/json;charset=UTF-8")
+    public List<Users> getUserByName(
+            @RequestParam(value = "name") String name) {
 
-
-
+        return userService.fetchUserByName(name);
+    }
 
 
 
