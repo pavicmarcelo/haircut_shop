@@ -71,6 +71,12 @@ public class UserController {
     }
 
 
+    @RequestMapping(value = "/users/{phoneNumber}/phoneNumber", method = RequestMethod.GET, produces = "application/json;charset=UTF-8")
+    public Users getUserByPhoneNumber(
+            @PathVariable(value = "phoneNumber") final String phoneNumber) {
+
+        return userService.fetchUserByPhoneNumber(phoneNumber);
+    }
 
 
 

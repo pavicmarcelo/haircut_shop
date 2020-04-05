@@ -82,11 +82,11 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public String fetchUserByPhoneNumber(Users users) {
+    public Users fetchUserByPhoneNumber(String phoneNumber) {
 
-        if (users.getPhoneNumber() != null) {
+        if (userRepository.findUsersByPhoneNumber(phoneNumber) != null) {
 
-            String fetchedUserByPhoneNumber = userRepository.findUsersByPhoneNumber(users.getPhoneNumber());
+            Users fetchedUserByPhoneNumber = userRepository.findUsersByPhoneNumber(phoneNumber);
 
             return fetchedUserByPhoneNumber;
         }

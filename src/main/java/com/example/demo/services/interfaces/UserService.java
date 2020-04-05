@@ -16,7 +16,7 @@ public interface UserService {
 
     void updateUsersPassword(Integer userId, String password);
 
-    String fetchUserByPhoneNumber(Users users);
+    Users fetchUserByPhoneNumber(String phoneNumber);
 
     Users fetchUserByUserId(Integer userId);
 
