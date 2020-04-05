@@ -63,8 +63,12 @@ public class UserController {
     }
 
 
+    @RequestMapping(value = "/users/{name}/names", method = RequestMethod.GET, produces = "application/json;charset=UTF-8")
+    public List<Users> getUserByName(
+            @PathVariable(value = "name") final String name){
 
-
+        return userService.fetchUserByName(name);
+    }
 
 
 
