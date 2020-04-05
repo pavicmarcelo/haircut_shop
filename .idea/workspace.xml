@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b70dbec-61e5-49f1-93e8-ac16ad10a5cf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/dto/HaircutShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/dto/HaircutShop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/repository/HaircutShopRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/repository/HaircutShopRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/services/impl/HaircutShopServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/services/impl/HaircutShopServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/services/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/services/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/services/interfaces/HaircutShopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/services/interfaces/HaircutShopService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/services/interfaces/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/services/interfaces/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/liquibase-changelog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/liquibase-changelog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HaircutShopApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HaircutShopApp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-develop.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-develop.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-develop.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-develop.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/liquibase-changelog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db/liquibase-changelog.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +39,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="branch_deleting_user" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -90,7 +89,20 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/example/demo/application" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.HaircutShopApplication">
+    <configuration name="HaircutShopApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="HaircutShopApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.HaircutShopApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HaircutShopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="HaircutShopApp" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.HaircutShopApplication" />
@@ -98,6 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.HaircutShopApplication (1)" />
+        <item itemvalue="Spring Boot.HaircutShopApplication (1)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -219,6 +237,10 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="401" y="201" width="621" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1585213655922" />
+    <state x="557" y="288" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1586096257381">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="557" y="288" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586096257381" />
     <state x="212" y="324" width="916" height="145" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1584812164716">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -235,38 +257,38 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="710" y="284" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1585500694965" />
-    <state width="1253" height="136" key="GridCell.Tab.0.bottom" timestamp="1585601995566">
+    <state width="1253" height="301" key="GridCell.Tab.0.bottom" timestamp="1586097415362">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="136" key="GridCell.Tab.0.bottom/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1585601995566" />
-    <state width="1253" height="136" key="GridCell.Tab.0.center" timestamp="1585601995565">
+    <state width="1253" height="301" key="GridCell.Tab.0.bottom/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586097415362" />
+    <state width="1253" height="301" key="GridCell.Tab.0.center" timestamp="1586097415362">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="136" key="GridCell.Tab.0.center/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1585601995565" />
-    <state width="1253" height="136" key="GridCell.Tab.0.left" timestamp="1585601995565">
+    <state width="1253" height="301" key="GridCell.Tab.0.center/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586097415362" />
+    <state width="1253" height="301" key="GridCell.Tab.0.left" timestamp="1586097415362">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="136" key="GridCell.Tab.0.left/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1585601995565" />
-    <state width="1253" height="136" key="GridCell.Tab.0.right" timestamp="1585601995566">
+    <state width="1253" height="301" key="GridCell.Tab.0.left/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586097415362" />
+    <state width="1253" height="301" key="GridCell.Tab.0.right" timestamp="1586097415362">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="136" key="GridCell.Tab.0.right/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1585601995566" />
-    <state width="1253" height="136" key="GridCell.Tab.1.bottom" timestamp="1585601995566">
+    <state width="1253" height="301" key="GridCell.Tab.0.right/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586097415362" />
+    <state width="1253" height="301" key="GridCell.Tab.1.bottom" timestamp="1586097415363">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="136" key="GridCell.Tab.1.bottom/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1585601995566" />
-    <state width="1253" height="136" key="GridCell.Tab.1.center" timestamp="1585601995566">
+    <state width="1253" height="301" key="GridCell.Tab.1.bottom/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586097415363" />
+    <state width="1253" height="301" key="GridCell.Tab.1.center" timestamp="1586097415363">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="136" key="GridCell.Tab.1.center/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1585601995566" />
-    <state width="1253" height="136" key="GridCell.Tab.1.left" timestamp="1585601995566">
+    <state width="1253" height="301" key="GridCell.Tab.1.center/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586097415363" />
+    <state width="1253" height="301" key="GridCell.Tab.1.left" timestamp="1586097415362">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="136" key="GridCell.Tab.1.left/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1585601995566" />
-    <state width="1253" height="136" key="GridCell.Tab.1.right" timestamp="1585601995566">
+    <state width="1253" height="301" key="GridCell.Tab.1.left/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586097415362" />
+    <state width="1253" height="301" key="GridCell.Tab.1.right" timestamp="1586097415363">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="136" key="GridCell.Tab.1.right/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1585601995566" />
+    <state width="1253" height="301" key="GridCell.Tab.1.right/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586097415363" />
     <state width="1253" height="131" key="GridCell.Tab.2.bottom" timestamp="1585333921287">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
