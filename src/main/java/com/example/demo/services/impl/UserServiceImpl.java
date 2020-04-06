@@ -99,6 +99,7 @@ public class UserServiceImpl implements UserService {
 
                 throw new UsernameNotFoundException("There is no user with this " + phoneNumber + " phone number.");
             }
+
         }
 
 
