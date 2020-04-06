@@ -48,9 +48,9 @@ public class UserController {
 
 
     @RequestMapping(value = "/users", method = RequestMethod.GET, produces = "application/json;charset=UTF-8")
-    public List<Users> getAllUsers() {
+    public List<Users> getUsers(@RequestParam(required = false, name = "name") String name, @RequestParam(required = false, name = "email") String email) {
 
-        return userRepository.findAll();
+        return userService.fetchAllUsers(name, email);
 
     }
 
@@ -62,15 +62,12 @@ public class UserController {
         return userService.createUser(users);
     }
 
-
     @RequestMapping(value = "/users/names/{name}", method = RequestMethod.GET, produces = "application/json;charset=UTF-8")
     public List<Users> getUserByName(
             @PathVariable(value = "name") final String name){
 
         return userService.fetchUserByName(name);
     }
-
-
 
     @RequestMapping(value = "/users/phoneNumber/{phoneNumber}", method = RequestMethod.GET, produces = "application/json;charset=UTF-8")
     public Users getUserByPhoneNumber(
