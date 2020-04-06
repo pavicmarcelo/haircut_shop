@@ -24,6 +24,6 @@ public interface UserService {
 
     List<Users> fetchUserByName(String name);
 
-    List<Users> fetchAllUsers();
+    List<Users> fetchAllUsers(String name, String email);
 
 }

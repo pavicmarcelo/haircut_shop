@@ -106,24 +106,22 @@ public class UserServiceImpl implements UserService {
 
 
     @Override
-    public List<Users> fetchAllUsers() {
+    public List<Users> fetchAllUsers(String name, String email) {
 
-        if (StringUtils.isEmpty(users.getName()) || StringUtils.isEmpty(users.getEmail())) {
+        if (StringUtils.isEmpty(name) || StringUtils.isEmpty(email)) {
 
             return userRepository.findAll();
 
         }
 
-        if (StringUtils.isNotEmpty(users.getName())) {
+        if (StringUtils.isNotEmpty(name)) {
 
-
-            return userRepository.findUsersByName(users.getName());
+            return userRepository.findUsersByName(name);
         }
 
-        if (StringUtils.isNotEmpty(users.getEmail())) {
+        if (StringUtils.isNotEmpty(email)) {
 
-
-            return userRepository.findUsersByEmail(users.getEmail());
+            return userRepository.findUsersByEmail(email);
         }
 
         return null;
