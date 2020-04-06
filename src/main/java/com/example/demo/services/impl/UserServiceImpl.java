@@ -5,9 +5,13 @@ import com.example.demo.repository.UserRepository;
 import com.example.demo.services.interfaces.UserService;
 import liquibase.util.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.userdetails.User;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.ExceptionHandler;
 
+import javax.validation.constraints.Null;
 import java.util.List;
 
 
@@ -21,6 +25,7 @@ public class UserServiceImpl implements UserService {
     PasswordEncoder passwordEncoder;
 
     Users users;
+
 
     @Override
     public void saveUser(Users users) {
@@ -84,16 +89,19 @@ public class UserServiceImpl implements UserService {
     @Override
     public Users fetchUserByPhoneNumber(String phoneNumber) {
 
-        if (userRepository.findUsersByPhoneNumber(phoneNumber) != null) {
-
             Users fetchedUserByPhoneNumber = userRepository.findUsersByPhoneNumber(phoneNumber);
 
-            return fetchedUserByPhoneNumber;
+            if (fetchedUserByPhoneNumber != null) {
+
+                return fetchedUserByPhoneNumber;
+
+            } else {
+
+                throw new UsernameNotFoundException("There is no user with this " + phoneNumber + " phone number.");
+            }
         }
 
-        return null;
 
-    }
 
 
     @Override
