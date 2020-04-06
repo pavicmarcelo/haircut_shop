@@ -21,7 +21,7 @@ public interface UserRepository extends JpaRepository<Users, Integer> {
     int updateUserPassword(@Param("password") String password, @Param("user_id") Integer userId);
 
 
-    String findUsersByPhoneNumber(String phoneNumber);
+    Users findUsersByPhoneNumber(String phoneNumber);
 
     Users findUserByUserId(Integer userId);
 

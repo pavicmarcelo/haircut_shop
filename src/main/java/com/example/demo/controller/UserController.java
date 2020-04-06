@@ -63,7 +63,7 @@ public class UserController {
     }
 
 
-    @RequestMapping(value = "/users/{name}/names", method = RequestMethod.GET, produces = "application/json;charset=UTF-8")
+    @RequestMapping(value = "/users/names/{name}", method = RequestMethod.GET, produces = "application/json;charset=UTF-8")
     public List<Users> getUserByName(
             @PathVariable(value = "name") final String name){
 
@@ -71,6 +71,13 @@ public class UserController {
     }
 
 
+
+    @RequestMapping(value = "/users/phoneNumber/{phoneNumber}", method = RequestMethod.GET, produces = "application/json;charset=UTF-8")
+    public Users getUserByPhoneNumber(
+            @PathVariable(value = "phoneNumber") final String phoneNumber) throws Throwable {
+
+        return userService.fetchUserByPhoneNumber(phoneNumber);
+    }
 
 
 
