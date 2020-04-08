@@ -34,7 +34,7 @@ public class UserController {
     public @ResponseBody
     void updateUserPassword(@PathVariable(value = "id") Integer userId, @RequestBody Users users) {
 
-        userService.updateUsersPassword(userId, users.getPassword());
+        // userService.updateUsersPassword(userId, users.getPassword());
 
     }
 
@@ -62,9 +62,9 @@ public class UserController {
         return userService.createUser(users);
     }
 
-    @RequestMapping(value = "/users/names/{name}", method = RequestMethod.GET, produces = "application/json;charset=UTF-8")
-    public List<Users> getUserByName(
-            @PathVariable(value = "name") final String name){
+    @RequestMapping(value = "/users/name/{name}", method = RequestMethod.GET, produces = "application/json;charset=UTF-8")
+    public List<Users> getUsersByName(
+            @PathVariable(value = "name") final String name) throws Throwable {
 
         return userService.fetchUserByName(name);
     }

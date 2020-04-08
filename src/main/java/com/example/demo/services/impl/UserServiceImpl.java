@@ -4,6 +4,7 @@ import com.example.demo.dto.Users;
 import com.example.demo.repository.UserRepository;
 import com.example.demo.services.interfaces.UserService;
 import liquibase.util.StringUtils;
+import org.dom4j.dom.DOMNodeHelper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
@@ -12,6 +13,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
 import javax.validation.constraints.Null;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 
@@ -51,26 +54,27 @@ public class UserServiceImpl implements UserService {
     @Override
     public Users fetchUserByUserId(Integer userId) {
 
-        if (userId != null) {
+        Users listOfAllUsersByUserId = userRepository.findUserByUserId(userId);
 
-            Users listOfAllUsersByUserId = userRepository.findUserByUserId(userId);
+        if (listOfAllUsersByUserId != null) {
 
             return listOfAllUsersByUserId;
+
+        } else {
+            throw new UsernameNotFoundException("There is no user with that Id number.");
         }
-        return null;
     }
 
     @Override
     public List<Users> fetchUserByName(String name) {
 
-        if (userRepository.findUsersByName(name) != null) {
+            List<Users> listOfUsers = userRepository.findUsersByName(name);
 
-            List<Users> usersFetchedByName = userRepository.findUsersByName(name);
+            if(listOfUsers.isEmpty()) {
 
-            return usersFetchedByName;
-        }
-
-        return null;
+                throw new UsernameNotFoundException("There is no user with this " + name + " name.");
+            }
+                return listOfUsers;
     }
 
 
@@ -99,9 +103,7 @@ public class UserServiceImpl implements UserService {
 
                 throw new UsernameNotFoundException("There is no user with this " + phoneNumber + " phone number.");
             }
-
         }
-
 
 
 
@@ -130,7 +132,7 @@ public class UserServiceImpl implements UserService {
     @Override
     public Users createUser(Users users) {
 
-        users.setPassword(passHashed(users.getPassword()));
+       // users.setPassword(passHashed(users.getPassword()));
 
         return userRepository.save(users);
     }
