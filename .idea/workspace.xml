@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b70dbec-61e5-49f1-93e8-ac16ad10a5cf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/dto/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/dto/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/services/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/services/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/services/interfaces/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/services/interfaces/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +53,6 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -63,27 +70,28 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.40574712" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.example.demo" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="dto" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/java/com/example/demo/application" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="dto" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.HaircutShopApplication">
@@ -151,6 +159,11 @@
       <workItem from="1585679953025" duration="1734000" />
       <workItem from="1586116505611" duration="3139000" />
       <workItem from="1586178795141" duration="3043000" />
+      <workItem from="1586207343933" duration="3071000" />
+      <workItem from="1586251853192" duration="6292000" />
+      <workItem from="1586283403098" duration="3716000" />
+      <workItem from="1586335133931" duration="6860000" />
+      <workItem from="1586346244727" duration="624000" />
     </task>
     <task id="LOCAL-00001" summary="First use of git, first commit and push.">
       <created>1585477729410</created>
@@ -222,11 +235,18 @@
       <option name="project" value="LOCAL" />
       <updated>1586108882430</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Finding all users.">
+      <created>1586191745914</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1586191745914</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First use of git, first commit and push." />
@@ -234,17 +254,18 @@
     <MESSAGE value="Deleting user." />
     <MESSAGE value="Finding user by user name." />
     <MESSAGE value="Finding user by phone number." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finding user by phone number." />
+    <MESSAGE value="Finding all users." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finding all users." />
   </component>
   <component name="WindowStateProjectService">
     <state x="311" y="58" width="800" height="677" key="#Assign_Data_Sources" timestamp="1585328326023">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="311" y="58" width="800" height="677" key="#Assign_Data_Sources/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1585328326023" />
-    <state x="311" y="58" width="800" height="677" key="#Notifications" timestamp="1585500878661">
+    <state x="311" y="58" width="800" height="677" key="#Notifications" timestamp="1586335146437">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="311" y="58" width="800" height="677" key="#Notifications/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1585500878661" />
+    <state x="311" y="58" width="800" height="677" key="#Notifications/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586335146437" />
     <state x="311" y="58" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585132910793">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -273,62 +294,66 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="710" y="284" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1585500694965" />
-    <state width="1253" height="166" key="GridCell.Tab.0.bottom" timestamp="1586191458337">
+    <state width="1253" height="125" key="GridCell.Tab.0.bottom" timestamp="1586345205781">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="166" key="GridCell.Tab.0.bottom/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586191458337" />
-    <state width="1253" height="166" key="GridCell.Tab.0.center" timestamp="1586191458337">
+    <state width="1253" height="180" key="GridCell.Tab.0.bottom/67.27.1299.741/1366.0.1280.1024@1366.0.1280.1024" timestamp="1586295116461" />
+    <state width="1253" height="125" key="GridCell.Tab.0.bottom/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586345205781" />
+    <state width="1253" height="125" key="GridCell.Tab.0.center" timestamp="1586345205781">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="166" key="GridCell.Tab.0.center/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586191458337" />
-    <state width="1253" height="166" key="GridCell.Tab.0.left" timestamp="1586191458337">
+    <state width="1253" height="180" key="GridCell.Tab.0.center/67.27.1299.741/1366.0.1280.1024@1366.0.1280.1024" timestamp="1586295116461" />
+    <state width="1253" height="125" key="GridCell.Tab.0.center/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586345205781" />
+    <state width="1253" height="125" key="GridCell.Tab.0.left" timestamp="1586345205781">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="166" key="GridCell.Tab.0.left/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586191458337" />
-    <state width="1253" height="166" key="GridCell.Tab.0.right" timestamp="1586191458337">
+    <state width="1253" height="180" key="GridCell.Tab.0.left/67.27.1299.741/1366.0.1280.1024@1366.0.1280.1024" timestamp="1586295116460" />
+    <state width="1253" height="125" key="GridCell.Tab.0.left/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586345205781" />
+    <state width="1253" height="125" key="GridCell.Tab.0.right" timestamp="1586345205781">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="166" key="GridCell.Tab.0.right/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586191458337" />
-    <state width="1253" height="166" key="GridCell.Tab.1.bottom" timestamp="1586191458338">
+    <state width="1253" height="180" key="GridCell.Tab.0.right/67.27.1299.741/1366.0.1280.1024@1366.0.1280.1024" timestamp="1586295116461" />
+    <state width="1253" height="125" key="GridCell.Tab.0.right/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586345205781" />
+    <state width="1253" height="125" key="GridCell.Tab.1.bottom" timestamp="1586345205782">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="166" key="GridCell.Tab.1.bottom/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586191458338" />
-    <state width="1253" height="166" key="GridCell.Tab.1.center" timestamp="1586191458338">
+    <state width="1253" height="125" key="GridCell.Tab.1.bottom/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586345205782" />
+    <state width="1253" height="125" key="GridCell.Tab.1.center" timestamp="1586345205782">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="166" key="GridCell.Tab.1.center/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586191458338" />
-    <state width="1253" height="166" key="GridCell.Tab.1.left" timestamp="1586191458337">
+    <state width="1253" height="125" key="GridCell.Tab.1.center/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586345205782" />
+    <state width="1253" height="125" key="GridCell.Tab.1.left" timestamp="1586345205781">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="166" key="GridCell.Tab.1.left/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586191458337" />
-    <state width="1253" height="166" key="GridCell.Tab.1.right" timestamp="1586191458338">
+    <state width="1253" height="125" key="GridCell.Tab.1.left/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586345205781" />
+    <state width="1253" height="125" key="GridCell.Tab.1.right" timestamp="1586345205782">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="166" key="GridCell.Tab.1.right/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586191458338" />
-    <state width="1253" height="219" key="GridCell.Tab.2.bottom" timestamp="1586181344523">
+    <state width="1253" height="125" key="GridCell.Tab.1.right/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586345205782" />
+    <state width="1253" height="219" key="GridCell.Tab.2.bottom" timestamp="1586204932629">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="219" key="GridCell.Tab.2.bottom/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586181344523" />
-    <state width="1253" height="219" key="GridCell.Tab.2.center" timestamp="1586181344523">
+    <state width="1253" height="219" key="GridCell.Tab.2.bottom/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586204932629" />
+    <state width="1253" height="219" key="GridCell.Tab.2.center" timestamp="1586204932629">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="219" key="GridCell.Tab.2.center/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586181344523" />
-    <state width="1253" height="219" key="GridCell.Tab.2.left" timestamp="1586181344522">
+    <state width="1253" height="219" key="GridCell.Tab.2.center/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586204932629" />
+    <state width="1253" height="219" key="GridCell.Tab.2.left" timestamp="1586204932628">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="219" key="GridCell.Tab.2.left/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586181344522" />
-    <state width="1253" height="219" key="GridCell.Tab.2.right" timestamp="1586181344523">
+    <state width="1253" height="219" key="GridCell.Tab.2.left/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586204932628" />
+    <state width="1253" height="219" key="GridCell.Tab.2.right" timestamp="1586204932629">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="219" key="GridCell.Tab.2.right/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586181344523" />
+    <state width="1253" height="219" key="GridCell.Tab.2.right/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586204932629" />
     <state x="249" y="54" width="924" height="684" key="Maven.ArtifactSearchDialog" timestamp="1586179662682">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="249" y="54" width="924" height="684" key="Maven.ArtifactSearchDialog/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586179662682" />
-    <state x="199" y="27" width="1024" height="741" key="SettingsEditor" timestamp="1586107601211">
-      <screen x="67" y="27" width="1299" height="741" />
+    <state x="1490" y="185" width="1024" height="741" key="SettingsEditor" timestamp="1586286588668">
+      <screen x="1366" y="0" width="1280" height="1024" />
     </state>
-    <state x="1496" y="0" key="SettingsEditor/67.27.1299.741/1366.0.1280.1024@1366.0.1280.1024" timestamp="1584778744622" />
+    <state x="1490" y="185" key="SettingsEditor/67.27.1299.741/1366.0.1280.1024@1366.0.1280.1024" timestamp="1586286588668" />
     <state x="199" y="27" width="1024" height="741" key="SettingsEditor/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586107601211" />
     <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1586108895078">
       <screen x="67" y="27" width="1299" height="741" />
@@ -355,9 +380,10 @@
     </state>
     <state x="1433" y="99" width="1213" height="821" key="new project wizard/67.27.1299.741/1366.0.1280.1024@1366.0.1280.1024" timestamp="1585499530807" />
     <state x="67" y="99" width="1289" height="594" key="new project wizard/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1585419526846" />
-    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1586107843968">
-      <screen x="67" y="27" width="1299" height="741" />
+    <state x="1673" y="86" width="672" height="937" key="search.everywhere.popup" timestamp="1586284524197">
+      <screen x="1366" y="0" width="1280" height="1024" />
     </state>
+    <state x="1673" y="86" width="672" height="937" key="search.everywhere.popup/67.27.1299.741/1366.0.1280.1024@1366.0.1280.1024" timestamp="1586284524197" />
     <state x="379" y="89" width="672" height="678" key="search.everywhere.popup/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586107843968" />
   </component>
 </project>
