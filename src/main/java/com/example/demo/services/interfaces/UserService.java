@@ -22,8 +22,6 @@ public interface UserService {
 
     Users createUser(Users users);
 
-   // List<Users> fetchUserByName(String name) throws Throwable;
-
     List<Users> fetchAllUsers(String name, String email);
 
     List <Users>  fetchUserByName(String name) throws Throwable;
