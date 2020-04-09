@@ -12,21 +12,18 @@ import java.util.List;
 @Service
 public class HaircutShopServiceImpl implements HaircutShopService {
 
-    @Autowired
-    HaircutShopRepository haircutShopRepository;
-
 
     @Override
     public void createNewHaircutShop(HaircutShop haircutShop) {
 
-        haircutShopRepository.save(haircutShop);
+
 
     }
 
     @Override
     public void deleteHaircutShop(Integer haircutShopId) {
 
-        haircutShopRepository.deleteHaircutShopByHaircutShopId(haircutShopId);
+
 
     }
 
@@ -55,12 +52,7 @@ public class HaircutShopServiceImpl implements HaircutShopService {
     @Override
     public HaircutShop fetchHaircutShopByHaircutShopId(Integer haircutShopId) {
 
-        if (haircutShopId != null) {
 
-            HaircutShop fetchedHaircutShopByHaircutShopId = haircutShopRepository.findHaircutShopByHaircutShopId(haircutShopId);
-
-            return fetchedHaircutShopByHaircutShopId;
-        }
 
         return null;
 
@@ -69,12 +61,7 @@ public class HaircutShopServiceImpl implements HaircutShopService {
     @Override
     public List<HaircutShop> fetchHaircutShopByName(String haircutShopName) {
 
-        if (haircutShopName != null) {
 
-            List<HaircutShop> fetchedHaircutShopByHaircutShopName = haircutShopRepository.findHaircutShopByHaircutShopName(haircutShopName);
-
-            return fetchedHaircutShopByHaircutShopName;
-        }
 
         return null;
     }
@@ -83,27 +70,13 @@ public class HaircutShopServiceImpl implements HaircutShopService {
     @Override
     public List<HaircutShop> fetchHaircutShopByWorkTime(String workTime) {
 
-        if (workTime != null) {
-
-            List<HaircutShop> haircutShopFetchedByWorkTime = haircutShopRepository.findHaircutShopByHaircutShopWorkTime(workTime);
-
-            return haircutShopFetchedByWorkTime;
-        }
-
-        return null;
+     return null;
     }
 
     @Override
     public List<HaircutShop> fetchHaircutShopByPrice(Double price) {
 
-        if (price != null) {
-
-            List<HaircutShop> haircutShopFetchedByPrice = haircutShopRepository.findHaircutShopByHaircutShopPrices(price);
-
-            return haircutShopFetchedByPrice;
-        }
-
-        return null;
+        return  fetchHaircutShopByPrice(price);
     }
 
 

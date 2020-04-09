@@ -132,7 +132,7 @@ public class UserServiceImpl implements UserService {
     @Override
     public Users createUser(Users users) {
 
-       // users.setPassword(passHashed(users.getPassword()));
+         users.setPassword(passHashed(users.getPassword()));
 
         return userRepository.save(users);
     }
