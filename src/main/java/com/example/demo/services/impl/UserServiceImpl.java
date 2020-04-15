@@ -12,6 +12,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
+import javax.transaction.Transactional;
 import javax.validation.constraints.Null;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -27,17 +28,13 @@ public class UserServiceImpl implements UserService {
     @Autowired
     PasswordEncoder passwordEncoder;
 
-    Users users;
-
 
     @Override
-    public void saveUser(Users users) {
+    public void updateUserEmail(Integer userId, String email) {
 
-        createUser(users);
-    }
-
-    @Override
-    public void updateEmail(Integer userId, String email) {
+        if (email != null) {
+            userRepository.updateUserEmail(userId, email);
+        }
 
     }
 
@@ -48,7 +45,13 @@ public class UserServiceImpl implements UserService {
 
             userRepository.updateUserPassword(passHashed(password), userId);
         }
+    }
 
+    @Override
+    public void updateUserPhoneNumber(Integer userId, String phoneNumber) {
+        if (phoneNumber != null) {
+            userRepository.updateUserPhoneNumber(userId, phoneNumber);
+        }
     }
 
     @Override
@@ -68,13 +71,13 @@ public class UserServiceImpl implements UserService {
     @Override
     public List<Users> fetchUserByName(String name) {
 
-            List<Users> listOfUsers = userRepository.findUsersByName(name);
+        List<Users> listOfUsers = userRepository.findUsersByName(name);
 
-            if(listOfUsers.isEmpty()) {
+        if (listOfUsers.isEmpty()) {
 
-                throw new UsernameNotFoundException("There is no user with this " + name + " name.");
-            }
-                return listOfUsers;
+            throw new UsernameNotFoundException("There is no user with this " + name + " name.");
+        }
+        return listOfUsers;
     }
 
 
@@ -86,29 +89,23 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public void updateUserPhoneNumber(Users users) {
-
-    }
-
-    @Override
     public Users fetchUserByPhoneNumber(String phoneNumber) {
 
-            Users fetchedUserByPhoneNumber = userRepository.findUsersByPhoneNumber(phoneNumber);
+        Users fetchedUserByPhoneNumber = userRepository.findUsersByPhoneNumber(phoneNumber);
 
-            if (fetchedUserByPhoneNumber != null) {
+        if (fetchedUserByPhoneNumber != null) {
 
-                return fetchedUserByPhoneNumber;
+            return fetchedUserByPhoneNumber;
 
-            } else {
+        } else {
 
-                throw new UsernameNotFoundException("There is no user with this " + phoneNumber + " phone number.");
-            }
+            throw new UsernameNotFoundException("There is no user with this " + phoneNumber + " phone number.");
         }
-
+    }
 
 
     @Override
-    public List<Users> fetchAllUsers(String name, String email) {
+    public List<Users> fetchUsersInfo(String name, String email) {
 
         if (StringUtils.isEmpty(name) || StringUtils.isEmpty(email)) {
 
@@ -130,9 +127,15 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
+    public List<Users> findAllUsers() {
+        List<Users> allUsers = userRepository.findAll();
+        return allUsers;
+    }
+
+    @Override
     public Users createUser(Users users) {
 
-         users.setPassword(passHashed(users.getPassword()));
+        users.setPassword(passHashed(users.getPassword()));
 
         return userRepository.save(users);
     }

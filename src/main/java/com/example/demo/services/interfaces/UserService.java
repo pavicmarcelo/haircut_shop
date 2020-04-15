@@ -6,24 +6,24 @@ import java.util.List;
 
 public interface UserService {
 
-    void saveUser(Users users);
-
     void deleteUserByUserId(Integer userId);
 
-    void updateUserPhoneNumber(Users users);
-
-    void updateEmail(Integer userId, String email);
+    void updateUserEmail(Integer userId, String email);
 
     void updateUsersPassword(Integer userId, String password);
 
-    Users fetchUserByPhoneNumber(String phoneNumber) throws Throwable;
+    void updateUserPhoneNumber(Integer userId, String phoneNumber);
+
+    Users fetchUserByPhoneNumber(String phoneNumber);
 
     Users fetchUserByUserId(Integer userId);
 
     Users createUser(Users users);
 
-    List<Users> fetchAllUsers(String name, String email);
+    List<Users> fetchUsersInfo(String name, String email);
 
-    List <Users>  fetchUserByName(String name) throws Throwable;
+    List<Users> findAllUsers();
+
+    List<Users> fetchUserByName(String name);
 
 }
