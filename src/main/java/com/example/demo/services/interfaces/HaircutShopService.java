@@ -27,4 +27,6 @@ public interface HaircutShopService {
 
     List<HaircutShop> fetchHaircutShopByPrice(Double price);
 
+    List<HaircutShop> fetchAllHaircutShop();
+
 }

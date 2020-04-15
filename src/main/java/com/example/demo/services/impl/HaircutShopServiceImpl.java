@@ -12,6 +12,15 @@ import java.util.List;
 @Service
 public class HaircutShopServiceImpl implements HaircutShopService {
 
+    HaircutShopRepository haircutShopRepository;
+
+    @Override
+    public List<HaircutShop> fetchAllHaircutShop() {
+
+        List<HaircutShop> haircutShopList = haircutShopRepository.findAll();
+
+        return haircutShopList;
+    }
 
     @Override
     public void createNewHaircutShop(HaircutShop haircutShop) {
