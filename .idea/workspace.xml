@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b70dbec-61e5-49f1-93e8-ac16ad10a5cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/UserServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/services/impl/HaircutShopServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/services/impl/HaircutShopServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/services/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/services/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/services/interfaces/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/services/interfaces/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/HaircutShopApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/UserServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,8 +95,8 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserServiceTest.checkUserNameByIdTest">
-    <configuration name="UserServiceTest.checkUserNameByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.UserServiceTest.fetchUserByIdTest">
+    <configuration name="UserServiceTest.fetchUserByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HaircutShopApp" />
       <extension name="coverage">
         <pattern>
@@ -108,13 +106,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.example.demo" />
       <option name="MAIN_CLASS_NAME" value="com.example.demo.UserServiceTest" />
-      <option name="METHOD_NAME" value="checkUserNameByIdTest" />
+      <option name="METHOD_NAME" value="fetchUserByIdTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServiceTest.userCreateServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserServiceTest.fetchUserByPhoneNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HaircutShopApp" />
       <extension name="coverage">
         <pattern>
@@ -124,21 +122,56 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.example.demo" />
       <option name="MAIN_CLASS_NAME" value="com.example.demo.UserServiceTest" />
-      <option name="METHOD_NAME" value="userCreateServiceTest" />
+      <option name="METHOD_NAME" value="fetchUserByPhoneNumberTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HaircutShopApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="HaircutShopApplication" />
+    <configuration name="UserServiceTest.userByPhoneNumberDoesNotExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HaircutShopApp" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.HaircutShopApplication" />
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.UserServiceTest" />
+      <option name="METHOD_NAME" value="userByPhoneNumberDoesNotExist" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.userUpdateEmailTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HaircutShopApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.UserServiceTest" />
+      <option name="METHOD_NAME" value="userUpdateEmailTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.userUpdatePhoneNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HaircutShopApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.UserServiceTest" />
+      <option name="METHOD_NAME" value="userUpdatePhoneNumberTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -152,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserServiceTest.checkUserNameByIdTest" />
-        <item itemvalue="JUnit.UserServiceTest.userCreateServiceTest" />
-        <item itemvalue="Spring Boot.HaircutShopApplication (1)" />
-        <item itemvalue="Spring Boot.HaircutShopApplication (1)" />
-        <item itemvalue="Spring Boot.HaircutShopApplication (1)" />
+        <item itemvalue="JUnit.UserServiceTest.fetchUserByIdTest" />
+        <item itemvalue="JUnit.UserServiceTest.userUpdateEmailTest" />
+        <item itemvalue="JUnit.UserServiceTest.userUpdatePhoneNumberTest" />
+        <item itemvalue="JUnit.UserServiceTest.userByPhoneNumberDoesNotExist" />
+        <item itemvalue="JUnit.UserServiceTest.fetchUserByPhoneNumberTest" />
       </list>
     </recent_temporary>
   </component>
@@ -204,6 +237,11 @@
       <workItem from="1586375937939" duration="609000" />
       <workItem from="1586424772795" duration="168000" />
       <workItem from="1586425004625" duration="4528000" />
+      <workItem from="1586509697106" duration="9596000" />
+      <workItem from="1586597957358" duration="14187000" />
+      <workItem from="1586776345269" duration="2259000" />
+      <workItem from="1586845328878" duration="12446000" />
+      <workItem from="1586943765922" duration="1799000" />
     </task>
     <task id="LOCAL-00001" summary="First use of git, first commit and push.">
       <created>1585477729410</created>
@@ -295,13 +333,18 @@
     <MESSAGE value="Finding user by user name." />
     <MESSAGE value="Finding user by phone number." />
     <MESSAGE value="Finding all users." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finding all users." />
+    <MESSAGE value="Create new user." />
+    <option name="LAST_COMMIT_MESSAGE" value="Create new user." />
   </component>
   <component name="WindowStateProjectService">
     <state x="311" y="58" width="800" height="677" key="#Assign_Data_Sources" timestamp="1585328326023">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="311" y="58" width="800" height="677" key="#Assign_Data_Sources/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1585328326023" />
+    <state x="305" y="27" width="827" height="741" key="#HaircutShopApplication_(1)" timestamp="1586438374607">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="305" y="27" width="827" height="741" key="#HaircutShopApplication_(1)/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586438374607" />
     <state x="311" y="58" width="800" height="677" key="#Notifications" timestamp="1586335146437">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -310,10 +353,18 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="311" y="58" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1585132910793" />
+    <state x="167" y="125" width="1099" height="543" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1586604219810">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="167" y="125" width="1099" height="543" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586604219810" />
     <state x="401" y="201" width="621" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585213655922">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="401" y="201" width="621" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1585213655922" />
+    <state x="524" y="104" width="374" height="585" key="#com.intellij.ide.util.MemberChooser" timestamp="1586944946166">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="524" y="104" width="374" height="585" key="#com.intellij.ide.util.MemberChooser/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586944946166" />
     <state x="557" y="288" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1586096257381">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -334,66 +385,66 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="710" y="284" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1585500694965" />
-    <state width="1253" height="175" key="GridCell.Tab.0.bottom" timestamp="1586430847738">
+    <state width="1253" height="137" key="GridCell.Tab.0.bottom" timestamp="1586882524191">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state width="1253" height="180" key="GridCell.Tab.0.bottom/67.27.1299.741/1366.0.1280.1024@1366.0.1280.1024" timestamp="1586295116461" />
-    <state width="1253" height="175" key="GridCell.Tab.0.bottom/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586430847738" />
-    <state width="1253" height="175" key="GridCell.Tab.0.center" timestamp="1586430847738">
+    <state width="1253" height="137" key="GridCell.Tab.0.bottom/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586882524191" />
+    <state width="1253" height="137" key="GridCell.Tab.0.center" timestamp="1586882524191">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state width="1253" height="180" key="GridCell.Tab.0.center/67.27.1299.741/1366.0.1280.1024@1366.0.1280.1024" timestamp="1586295116461" />
-    <state width="1253" height="175" key="GridCell.Tab.0.center/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586430847738" />
-    <state width="1253" height="175" key="GridCell.Tab.0.left" timestamp="1586430847738">
+    <state width="1253" height="137" key="GridCell.Tab.0.center/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586882524191" />
+    <state width="1253" height="137" key="GridCell.Tab.0.left" timestamp="1586882524190">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state width="1253" height="180" key="GridCell.Tab.0.left/67.27.1299.741/1366.0.1280.1024@1366.0.1280.1024" timestamp="1586295116460" />
-    <state width="1253" height="175" key="GridCell.Tab.0.left/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586430847738" />
-    <state width="1253" height="175" key="GridCell.Tab.0.right" timestamp="1586430847738">
+    <state width="1253" height="137" key="GridCell.Tab.0.left/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586882524190" />
+    <state width="1253" height="137" key="GridCell.Tab.0.right" timestamp="1586882524191">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state width="1253" height="180" key="GridCell.Tab.0.right/67.27.1299.741/1366.0.1280.1024@1366.0.1280.1024" timestamp="1586295116461" />
-    <state width="1253" height="175" key="GridCell.Tab.0.right/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586430847738" />
-    <state width="1253" height="175" key="GridCell.Tab.1.bottom" timestamp="1586429702486">
+    <state width="1253" height="137" key="GridCell.Tab.0.right/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586882524191" />
+    <state width="1253" height="137" key="GridCell.Tab.1.bottom" timestamp="1586882524192">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="175" key="GridCell.Tab.1.bottom/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586429702486" />
-    <state width="1253" height="175" key="GridCell.Tab.1.center" timestamp="1586429702486">
+    <state width="1253" height="137" key="GridCell.Tab.1.bottom/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586882524192" />
+    <state width="1253" height="137" key="GridCell.Tab.1.center" timestamp="1586882524191">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="175" key="GridCell.Tab.1.center/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586429702486" />
-    <state width="1253" height="175" key="GridCell.Tab.1.left" timestamp="1586429702486">
+    <state width="1253" height="137" key="GridCell.Tab.1.center/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586882524191" />
+    <state width="1253" height="137" key="GridCell.Tab.1.left" timestamp="1586882524191">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="175" key="GridCell.Tab.1.left/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586429702486" />
-    <state width="1253" height="175" key="GridCell.Tab.1.right" timestamp="1586429702486">
+    <state width="1253" height="137" key="GridCell.Tab.1.left/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586882524191" />
+    <state width="1253" height="137" key="GridCell.Tab.1.right" timestamp="1586882524192">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="175" key="GridCell.Tab.1.right/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586429702486" />
-    <state width="1253" height="219" key="GridCell.Tab.2.bottom" timestamp="1586204932629">
+    <state width="1253" height="137" key="GridCell.Tab.1.right/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586882524192" />
+    <state width="1253" height="219" key="GridCell.Tab.2.bottom" timestamp="1586533999685">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="219" key="GridCell.Tab.2.bottom/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586204932629" />
-    <state width="1253" height="219" key="GridCell.Tab.2.center" timestamp="1586204932629">
+    <state width="1253" height="219" key="GridCell.Tab.2.bottom/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586533999685" />
+    <state width="1253" height="219" key="GridCell.Tab.2.center" timestamp="1586533999685">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="219" key="GridCell.Tab.2.center/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586204932629" />
-    <state width="1253" height="219" key="GridCell.Tab.2.left" timestamp="1586204932628">
+    <state width="1253" height="219" key="GridCell.Tab.2.center/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586533999685" />
+    <state width="1253" height="219" key="GridCell.Tab.2.left" timestamp="1586533999685">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="219" key="GridCell.Tab.2.left/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586204932628" />
-    <state width="1253" height="219" key="GridCell.Tab.2.right" timestamp="1586204932629">
+    <state width="1253" height="219" key="GridCell.Tab.2.left/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586533999685" />
+    <state width="1253" height="219" key="GridCell.Tab.2.right" timestamp="1586533999685">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="219" key="GridCell.Tab.2.right/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586204932629" />
+    <state width="1253" height="219" key="GridCell.Tab.2.right/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586533999685" />
     <state x="249" y="54" width="924" height="684" key="Maven.ArtifactSearchDialog" timestamp="1586179662682">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="249" y="54" width="924" height="684" key="Maven.ArtifactSearchDialog/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586179662682" />
-    <state x="230" y="27" width="1024" height="741" key="SettingsEditor" timestamp="1586424947733">
-      <screen x="67" y="27" width="1299" height="741" />
+    <state x="1534" y="162" width="1024" height="741" key="SettingsEditor" timestamp="1586781511125">
+      <screen x="1366" y="0" width="1280" height="1024" />
     </state>
-    <state x="1490" y="185" key="SettingsEditor/67.27.1299.741/1366.0.1280.1024@1366.0.1280.1024" timestamp="1586286588668" />
+    <state x="1534" y="162" key="SettingsEditor/67.27.1299.741/1366.0.1280.1024@1366.0.1280.1024" timestamp="1586781511125" />
     <state x="230" y="27" width="1024" height="741" key="SettingsEditor/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586424947733" />
     <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1586108895078">
       <screen x="67" y="27" width="1299" height="741" />
@@ -420,10 +471,10 @@
     </state>
     <state x="1433" y="99" width="1213" height="821" key="new project wizard/67.27.1299.741/1366.0.1280.1024@1366.0.1280.1024" timestamp="1585499530807" />
     <state x="67" y="99" width="1289" height="594" key="new project wizard/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1585419526846" />
-    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1586375817317">
-      <screen x="67" y="27" width="1299" height="741" />
+    <state x="1673" y="86" width="672" height="937" key="search.everywhere.popup" timestamp="1586781506475">
+      <screen x="1366" y="0" width="1280" height="1024" />
     </state>
-    <state x="1673" y="86" width="672" height="937" key="search.everywhere.popup/67.27.1299.741/1366.0.1280.1024@1366.0.1280.1024" timestamp="1586284524197" />
-    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586375817317" />
+    <state x="1673" y="86" width="672" height="937" key="search.everywhere.popup/67.27.1299.741/1366.0.1280.1024@1366.0.1280.1024" timestamp="1586781506475" />
+    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586516390540" />
   </component>
 </project>

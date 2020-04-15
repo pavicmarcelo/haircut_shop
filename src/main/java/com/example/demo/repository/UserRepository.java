@@ -14,12 +14,20 @@ public interface UserRepository extends JpaRepository<Users, Integer> {
 
     void deleteUsersByUserId(Integer userId);
 
-
     @Modifying(clearAutomatically = true)
     @Transactional
     @Query("UPDATE Users u set u.password = :password WHERE u.userId = :user_id")    // value = "UPDATE... "
     int updateUserPassword(@Param("password") String password, @Param("user_id") Integer userId);  // void? @Param(value="password")
 
+    @Modifying(clearAutomatically = true)
+    @Transactional
+    @Query("UPDATE Users u set u.email = :email WHERE u.userId = :user_id")
+    void updateUserEmail(@Param("user_id") Integer userId, @Param("email") String email);
+
+    @Modifying(clearAutomatically = true)
+    @Transactional
+    @Query("UPDATE Users u set u.phoneNumber = :phoneNumber WHERE u.userId = :user_id")
+    void updateUserPhoneNumber(@Param("user_id") Integer userId, @Param("phoneNumber") String phoneNumber) ;
 
     Users findUsersByPhoneNumber(String phoneNumber);
 
