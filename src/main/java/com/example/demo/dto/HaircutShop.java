@@ -4,10 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 
 @NoArgsConstructor
@@ -19,6 +16,8 @@ import javax.validation.constraints.NotNull;
 public class HaircutShop {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "haircut_shop_seq")
+    @SequenceGenerator(name = "haircut_shop_seq", sequenceName = "seq_haircut_shop", initialValue = 1, allocationSize = 1)
     @Column(name = "haircut_shop_id")
     Integer haircutShopId;
     @Column(name = "haircut_shop_name")

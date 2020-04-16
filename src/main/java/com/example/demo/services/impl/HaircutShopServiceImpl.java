@@ -4,6 +4,7 @@ import com.example.demo.dto.HaircutShop;
 import com.example.demo.repository.HaircutShopRepository;
 import com.example.demo.services.interfaces.HaircutShopService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
 
@@ -12,8 +13,9 @@ import java.util.List;
 @Service
 public class HaircutShopServiceImpl implements HaircutShopService {
 
+    @Autowired
     HaircutShopRepository haircutShopRepository;
-
+/*
     @Override
     public List<HaircutShop> fetchAllHaircutShop() {
 
@@ -21,12 +23,11 @@ public class HaircutShopServiceImpl implements HaircutShopService {
 
         return haircutShopList;
     }
-
+*/
     @Override
-    public void createNewHaircutShop(HaircutShop haircutShop) {
+    public void createHaircutShop(HaircutShop haircutShop) {
 
-
-
+        haircutShopRepository.save(haircutShop);
     }
 
     @Override
@@ -68,11 +69,15 @@ public class HaircutShopServiceImpl implements HaircutShopService {
     }
 
     @Override
-    public List<HaircutShop> fetchHaircutShopByName(String haircutShopName) {
+    public List<HaircutShop> fetchHaircutShopByName(String name) {
 
+        List<HaircutShop> haircutShopFetchedByName = haircutShopRepository.findHaircutShopByHaircutShopName(name);
 
+        if (haircutShopFetchedByName.isEmpty()) {
 
-        return null;
+           throw new UsernameNotFoundException("There is no user with this " + name + " name.");
+        }
+        return haircutShopFetchedByName;
     }
 
 
