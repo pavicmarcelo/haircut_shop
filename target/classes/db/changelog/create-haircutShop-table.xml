@@ -5,11 +5,16 @@
         xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
 
     <changeSet id="01" author="postgres">
-        <createSequence schemaName="public" startValue="1" incrementBy="1" sequenceName="seq_haircutShop"/>
-        <createTable tableName="haircutShop" remarks="A table to contain all haircutShop">
-            <column name="haircut_shop_id" type="int" defaultValueSequenceNext="seq_users">
-                <constraints nullable="false" unique="true" primaryKey="true" primaryKeyName="pk_haircutShop"/>
+
+        <createSequence schemaName="public" startValue="1" incrementBy="1" sequenceName="seq_haircut_shop"/>
+
+        <createTable tableName="haircut_shop"
+                     remarks="A table to contain all haircut_shop">
+
+            <column name="haircut_shop_id" type="int" defaultValueSequenceNext="seq_haircut_shop">
+                <constraints nullable="false" unique="true" primaryKey="true" primaryKeyName="pk_haircut_shop"/>
             </column>
+
             <column name="haircut_shop_name" type="varchar(255)">
                 <constraints nullable="false" unique="false"/>
             </column>
