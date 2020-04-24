@@ -3,11 +3,14 @@ package com.example.demo.services.impl;
 import com.example.demo.dto.HaircutShop;
 import com.example.demo.repository.HaircutShopRepository;
 import com.example.demo.services.interfaces.HaircutShopService;
+import com.example.demo.time_services.LocalTime;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-
+import java.text.ParseException;
+import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.List;
 
 @Service
@@ -15,15 +18,14 @@ public class HaircutShopServiceImpl implements HaircutShopService {
 
     @Autowired
     HaircutShopRepository haircutShopRepository;
-/*
-    @Override
-    public List<HaircutShop> fetchAllHaircutShop() {
 
-        List<HaircutShop> haircutShopList = haircutShopRepository.findAll();
+    @Autowired
+    LocalTime localTime;
 
-        return haircutShopList;
-    }
-*/
+
+    HaircutShop haircutShop;
+
+
     @Override
     public void createHaircutShop(HaircutShop haircutShop) {
 
@@ -32,7 +34,6 @@ public class HaircutShopServiceImpl implements HaircutShopService {
 
     @Override
     public void deleteHaircutShop(Integer haircutShopId) {
-
 
 
     }
@@ -63,7 +64,6 @@ public class HaircutShopServiceImpl implements HaircutShopService {
     public HaircutShop fetchHaircutShopByHaircutShopId(Integer haircutShopId) {
 
 
-
         return null;
 
     }
@@ -75,22 +75,34 @@ public class HaircutShopServiceImpl implements HaircutShopService {
 
         if (haircutShopFetchedByName.isEmpty()) {
 
-           throw new UsernameNotFoundException("There is no user with this " + name + " name.");
+            throw new UsernameNotFoundException("There is no user with this " + name + " name.");
         }
         return haircutShopFetchedByName;
     }
 
-
     @Override
-    public List<HaircutShop> fetchHaircutShopByWorkTime(String workTime) {
+    public List<HaircutShop> fetchAllCurrentWorkingHaircutShop() {
 
-     return null;
+        int currentTime = localTime.getCurrentHours();
+
+        List<HaircutShop> getList = new ArrayList<>();
+
+        for (HaircutShop haircutShop : haircutShopRepository.findAll()) {
+
+            if (currentTime < haircutShop.getEndWorkTime() && currentTime >= haircutShop.getStartWorkTime()) {
+
+                getList.add(haircutShop);
+
+            }
+        }
+        return getList;
     }
+
 
     @Override
     public List<HaircutShop> fetchHaircutShopByPrice(Double price) {
 
-        return  fetchHaircutShopByPrice(price);
+        return fetchHaircutShopByPrice(price);
     }
 
 

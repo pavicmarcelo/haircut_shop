@@ -10,6 +10,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
 import java.util.List;
 
 @SpringBootTest
@@ -22,6 +24,7 @@ public class HaircutShopServiceTest {
     @Autowired
     HaircutShopService haircutShopService;
 
+    HaircutShop haircutShop;
 
 
     @Test
@@ -31,19 +34,18 @@ public class HaircutShopServiceTest {
         Assert.assertNotNull(fetchAllHaircutShop);
     }
 
-    // testiramo create haircut shop-a
-    // preko "save" - nalazi se u repu
-    // kako to testirati? -
-    // zelimo provjeriti da kad smo kreirali objekt da je metoda .save napravila spremanje objekta u bazu
+
     @Test
     public void createHaircutShopTest() {
+
+        DateTimeFormatter dateTimeFormatter;
+
 
         HaircutShop haircutShop = new HaircutShop();
         haircutShop.setHaircutShopName("ImeSalona");
         haircutShop.setHaircutShopAddress("adresa shopa 2");
         haircutShop.setHaircutShopPhoneNumber("097748235");
         haircutShop.setHaircutShopEmail("emaishop@shopovi.fom");
-        haircutShop.setHaircutShopWorkTime("zauvik 0-24");
         haircutShop.setHaircutShopPrices("500.00");
         haircutShop.setHaircutShopPassword("sifra3");
 
@@ -71,6 +73,28 @@ public class HaircutShopServiceTest {
             Assert.assertEquals(expName, nameFromDb);
         }
     }
+
+
+    @Test
+    public void fetchCurrentWorkingHaircutShopTest() {
+
+        int currentHourForTest = 12;
+
+        List<HaircutShop> getList = new ArrayList<>();
+
+        for (HaircutShop haircutShop : haircutShopRepository.findAll()) {
+
+            if (currentHourForTest < haircutShop.getEndWorkTime() && currentHourForTest >= haircutShop.getStartWorkTime()) {
+
+                getList.add(haircutShop);
+
+            }
+
+        }
+        Assert.assertNotNull(getList);
+    }
+
+
 
 
 }
