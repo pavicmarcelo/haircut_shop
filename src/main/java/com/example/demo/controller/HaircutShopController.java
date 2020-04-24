@@ -8,6 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
+import java.math.BigInteger;
+import java.text.ParseException;
 import java.util.List;
 
 @RestController
@@ -40,6 +42,12 @@ public class HaircutShopController {
             @PathVariable(value = "name") final String name) {
 
         return haircutShopService.fetchHaircutShopByName(name);
+    }
+
+    @RequestMapping(value = "/haircut-shop/work-time/", method = RequestMethod.GET, produces = "application/json;charset=UTF-8")
+    public List<HaircutShop> getHaircutShopByWorkTime() {
+
+        return haircutShopService.fetchAllCurrentWorkingHaircutShop();
     }
 
 }

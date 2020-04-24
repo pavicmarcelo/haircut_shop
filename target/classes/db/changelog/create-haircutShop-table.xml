@@ -27,16 +27,18 @@
             <column name="haircut_shop_email" type="varchar(255)">
                 <constraints nullable="false" unique="true"/>
             </column>
-            <column name="haircut_shop_work_time" type="varchar(255)">
-                <constraints nullable="false" unique="false"/>
-            </column>
             <column name="haircut_shop_prices" type="varchar(255)">
                 <constraints nullable="false" unique="false"/>
             </column>
             <column name="haircut_shop_password" type="varchar(255)">
                 <constraints nullable="false" unique="false"/>
             </column>
-
+            <column name="start_work_time" type="int">
+                <constraints nullable="false" unique="false"/>
+            </column>
+            <column name="end_work_time" type="int">
+                <constraints nullable="false" unique="false"/>
+            </column>
         </createTable>
     </changeSet>
 

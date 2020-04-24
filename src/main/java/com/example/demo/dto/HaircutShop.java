@@ -4,8 +4,12 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.math.BigInteger;
+import java.util.Date;
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
+import java.sql.Time;
+import java.time.LocalDate;
 
 @NoArgsConstructor
 @AllArgsConstructor
@@ -28,8 +32,10 @@ public class HaircutShop {
     String haircutShopPhoneNumber;
     @Column(name = "haircut_shop_email")
     String haircutShopEmail;
-    @Column(name = "haircut_shop_work_time")
-    String haircutShopWorkTime;
+    @Column(name = "start_work_time")
+    int startWorkTime;
+    @Column(name = "end_work_time")
+    int endWorkTime;
     @Column(name = "haircut_shop_prices")
     String haircutShopPrices;
     @Column(name = "haircut_shop_password")

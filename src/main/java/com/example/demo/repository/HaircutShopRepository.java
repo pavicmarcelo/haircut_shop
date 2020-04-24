@@ -1,3 +1,4 @@
+
 package com.example.demo.repository;
 
 
@@ -13,8 +14,6 @@ public interface HaircutShopRepository extends JpaRepository<HaircutShop, Intege
     HaircutShop findHaircutShopByHaircutShopId(Integer haircutShopId);
 
     List<HaircutShop> findHaircutShopByHaircutShopName(String haircutShopName);
-
-    List<HaircutShop> findHaircutShopByHaircutShopWorkTime(String workTime);
 
     List<HaircutShop> findHaircutShopByHaircutShopPrices(Double price);
 
