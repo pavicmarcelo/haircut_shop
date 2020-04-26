@@ -12,7 +12,7 @@ public interface HaircutShopService {
 
     void createHaircutShop(HaircutShop haircutShop);
 
-    void deleteHaircutShop(Integer haircutShopId);
+    void deleteHaircutShopById(Integer haircutShopId);
 
     void updatePhoneNumber(Integer haircutShopId, String phoneNumber);
 
@@ -28,7 +28,7 @@ public interface HaircutShopService {
 
     List<HaircutShop> fetchAllCurrentWorkingHaircutShop();
 
-    List<HaircutShop> fetchHaircutShopByPrice(Double price);
+ //   List<HaircutShop> fetchHaircutShopByPrice(Double price);
 
     // List<HaircutShop> getAllCurrentWorkingHaircutShops(long checkHours);
 

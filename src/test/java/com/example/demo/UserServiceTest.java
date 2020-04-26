@@ -72,9 +72,9 @@ public class UserServiceTest {
 
         Object object = new UsernameNotFoundException("There is no user with that Id number.");
 
-        userService.deleteUserByUserId(18);
+        userService.deleteUserByUserId(5);
 
-        Assert.assertEquals(object, userService.fetchUserByUserId(18));
+        Assert.assertEquals(object, userService.fetchUserByUserId(5));
 
     }
 

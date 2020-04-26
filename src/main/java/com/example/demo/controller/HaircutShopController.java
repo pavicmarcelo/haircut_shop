@@ -8,8 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
-import java.math.BigInteger;
-import java.text.ParseException;
+import javax.transaction.Transactional;
 import java.util.List;
 
 @RestController
@@ -50,4 +49,11 @@ public class HaircutShopController {
         return haircutShopService.fetchAllCurrentWorkingHaircutShop();
     }
 
+
+    @RequestMapping(value = "/haircut-shop/{id}", method = RequestMethod.DELETE, produces = "application/json;charset=UTF-8")
+    public void deleteHaircutShopById(
+            @PathVariable(value = "id") final Integer haircutShopId) {
+
+        haircutShopService.deleteHaircutShopById(haircutShopId);
+    }
 }

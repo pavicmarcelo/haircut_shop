@@ -10,9 +10,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
+
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
+
 
 @SpringBootTest
 @RunWith(SpringRunner.class)
@@ -23,6 +25,7 @@ public class HaircutShopServiceTest {
 
     @Autowired
     HaircutShopService haircutShopService;
+
 
     HaircutShop haircutShop;
 
@@ -41,15 +44,16 @@ public class HaircutShopServiceTest {
         DateTimeFormatter dateTimeFormatter;
 
 
-        HaircutShop haircutShop = new HaircutShop();
-        haircutShop.setHaircutShopName("ImeSalona");
-        haircutShop.setHaircutShopAddress("adresa shopa 2");
-        haircutShop.setHaircutShopPhoneNumber("097748235");
-        haircutShop.setHaircutShopEmail("emaishop@shopovi.fom");
-        haircutShop.setHaircutShopPrices("500.00");
-        haircutShop.setHaircutShopPassword("sifra3");
+        HaircutShop haircutShopNew = new HaircutShop();
 
-        HaircutShop haircutShopSaved = haircutShopRepository.save(haircutShop);
+        haircutShopNew.setHaircutShopName("ImeSalona");
+        haircutShopNew.setHaircutShopAddress("adresa shopa 2");
+        haircutShopNew.setHaircutShopPhoneNumber("097748235");
+        haircutShopNew.setHaircutShopEmail("emaishop@shopovi.fom");
+        haircutShopNew.setHaircutShopPrices("500.00");
+        haircutShopNew.setHaircutShopPassword("sifra3");
+
+        HaircutShop haircutShopSaved = haircutShopRepository.save(haircutShopNew);
 
         Assert.assertNotNull(haircutShopSaved);
 
@@ -95,6 +99,27 @@ public class HaircutShopServiceTest {
     }
 
 
+    @Test
+    public void deleteHaircutShopByIdTest() {
+
+        int id = 10;
+
+        haircutShopService.deleteHaircutShopById(id);
+
+        Assert.assertSame(null, haircutShopService.fetchHaircutShopByHaircutShopId(id));
+
+    }
+
+
+    @Test
+    public void checkGettingHaircutShopByID(){
+
+        HaircutShop shops = haircutShopRepository.findHaircutShopByHaircutShopId(5);
+
+        Assert.assertEquals(null, shops);
+
+
+    }
 
 
 }
