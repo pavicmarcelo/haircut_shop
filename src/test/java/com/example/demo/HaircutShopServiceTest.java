@@ -14,6 +14,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.NoSuchElementException;
 
 
 @SpringBootTest
@@ -103,6 +104,10 @@ public class HaircutShopServiceTest {
     public void deleteHaircutShopByIdTest() {
 
         int id = 10;
+
+        if (haircutShopService.fetchHaircutShopByHaircutShopId(id) == null) {
+            throw new NoSuchElementException();
+        }
 
         haircutShopService.deleteHaircutShopById(id);
 
