@@ -33,9 +33,9 @@ public class HaircutShopServiceImpl implements HaircutShopService {
     }
 
     @Override
-    public void deleteHaircutShop(Integer haircutShopId) {
+    public void deleteHaircutShopById(Integer haircutShopId) {
 
-
+        haircutShopRepository.deleteById(haircutShopId);
     }
 
     @Override
@@ -63,8 +63,7 @@ public class HaircutShopServiceImpl implements HaircutShopService {
     @Override
     public HaircutShop fetchHaircutShopByHaircutShopId(Integer haircutShopId) {
 
-
-        return null;
+        return haircutShopRepository.findHaircutShopByHaircutShopId(haircutShopId);
 
     }
 
@@ -99,11 +98,21 @@ public class HaircutShopServiceImpl implements HaircutShopService {
     }
 
 
-    @Override
-    public List<HaircutShop> fetchHaircutShopByPrice(Double price) {
-
-        return fetchHaircutShopByPrice(price);
-    }
+//    @Override
+//    public List<HaircutShop> fetchHaircutShopByPrice(Double price) {
+//
+//        List<HaircutShop> fetchedHaircutShopByPrice = new ArrayList<>();
+//
+//        if (price == null) {
+//            throw new UsernameNotFoundException("There is no user with this price " + price);
+//        }
+//
+//        for (HaircutShop haircutShop : haircutShopRepository.findAll()) {
+//            if (haircutShop.getHaircutShopPrices(). <= price) {
+//
+//            }
+//        }
+//    }
 
 
 }

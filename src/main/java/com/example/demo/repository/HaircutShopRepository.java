@@ -9,8 +9,6 @@ import java.util.List;
 
 public interface HaircutShopRepository extends JpaRepository<HaircutShop, Integer> {
 
-    HaircutShop deleteHaircutShopByHaircutShopId(Integer haircutShopId);
-
     HaircutShop findHaircutShopByHaircutShopId(Integer haircutShopId);
 
     List<HaircutShop> findHaircutShopByHaircutShopName(String haircutShopName);
