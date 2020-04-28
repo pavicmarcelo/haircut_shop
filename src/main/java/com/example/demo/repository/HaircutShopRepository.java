@@ -13,6 +13,6 @@ public interface HaircutShopRepository extends JpaRepository<HaircutShop, Intege
 
     List<HaircutShop> findHaircutShopByHaircutShopName(String haircutShopName);
 
-    List<HaircutShop> findHaircutShopByHaircutShopPrices(Double price);
+    List<HaircutShop> findHaircutShopByHaircutShopDescriptionPrices(String price);
 
 }

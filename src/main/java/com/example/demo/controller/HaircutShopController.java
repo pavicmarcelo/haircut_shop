@@ -56,4 +56,16 @@ public class HaircutShopController {
 
         haircutShopService.deleteHaircutShopById(haircutShopId);
     }
+
+
+    @RequestMapping(value = "/haircut-shop/prices/{price}", method = RequestMethod.GET, produces = "application/json;charset=UTF-8")
+    public List<HaircutShop> getHaircutShopByDescriptionPrice(
+            @PathVariable(value = "price") String price) {
+
+        return haircutShopService.fetchHaircutShopByDescriptionPrice(price);
+    }
+
+
+
+
 }
