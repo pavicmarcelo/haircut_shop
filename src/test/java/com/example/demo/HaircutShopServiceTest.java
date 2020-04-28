@@ -10,8 +10,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-
-import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;
@@ -42,9 +40,6 @@ public class HaircutShopServiceTest {
     @Test
     public void createHaircutShopTest() {
 
-        DateTimeFormatter dateTimeFormatter;
-
-
         HaircutShop haircutShopNew = new HaircutShop();
 
         haircutShopNew.setHaircutShopName("ImeSalona");
@@ -61,9 +56,6 @@ public class HaircutShopServiceTest {
     }
 
 
-    // fetchHCSbyName
-    // preko servisa dobavimo listu
-    // provjeriti preko imena da li je ok
     @Test
     public void fetchHaircutShopByNameTest() {
 
@@ -71,9 +63,9 @@ public class HaircutShopServiceTest {
 
         List<HaircutShop> haircutShopsByName = haircutShopService.fetchHaircutShopByName(expName);
 
-        for(HaircutShop haircutShop : haircutShopsByName) {
+        for (HaircutShop haircutShop : haircutShopsByName) {
 
-            String nameFromDb =  haircutShop.getHaircutShopName();
+            String nameFromDb = haircutShop.getHaircutShopName();
 
             Assert.assertEquals(expName, nameFromDb);
         }
@@ -117,7 +109,7 @@ public class HaircutShopServiceTest {
 
 
     @Test
-    public void checkGettingHaircutShopByID(){
+    public void checkGettingHaircutShopByID() {
 
         HaircutShop shops = haircutShopRepository.findHaircutShopByHaircutShopId(5);
 
@@ -132,9 +124,9 @@ public class HaircutShopServiceTest {
 
         List<HaircutShop> haircutShopsByDescriptionPrice = haircutShopService.fetchHaircutShopByDescriptionPrice(descriptionPrice);
 
-        for(HaircutShop haircutShop : haircutShopsByDescriptionPrice) {
+        for (HaircutShop haircutShop : haircutShopsByDescriptionPrice) {
 
-            String descriptionPriceFromDB =  haircutShop.getHaircutShopDescriptionPrices();
+            String descriptionPriceFromDB = haircutShop.getHaircutShopDescriptionPrices();
 
             Assert.assertEquals(descriptionPrice, descriptionPriceFromDB);
         }

@@ -5,10 +5,8 @@ import com.example.demo.repository.UserRepository;
 import com.example.demo.services.interfaces.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 
 @RestController
@@ -51,9 +49,9 @@ public class UserController {
     @RequestMapping(value = "/users/{id}/phoneNumber/update", method = RequestMethod.PUT, produces = "application/json;charset=UTF-8", consumes = "application/json;")
     public @ResponseBody
     void updateUserPhoneNumber(
-            @PathVariable(value = "id") final Integer userId, @RequestBody  Users users ) {
+            @PathVariable(value = "id") final Integer userId, @RequestBody Users users) {
 
-        userRepository.updateUserPhoneNumber(userId,users.getPhoneNumber());
+        userRepository.updateUserPhoneNumber(userId, users.getPhoneNumber());
 
     }
 

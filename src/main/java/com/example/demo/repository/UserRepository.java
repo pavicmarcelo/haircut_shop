@@ -12,12 +12,10 @@ import java.util.List;
 
 public interface UserRepository extends JpaRepository<Users, Integer> {
 
-    void deleteUsersByUserId(Integer userId);
-
     @Modifying(clearAutomatically = true)
     @Transactional
-    @Query("UPDATE Users u set u.password = :password WHERE u.userId = :user_id")    // value = "UPDATE... "
-    int updateUserPassword(@Param("password") String password, @Param("user_id") Integer userId);  // void? @Param(value="password")
+    @Query("UPDATE Users u set u.password = :password WHERE u.userId = :user_id")
+    int updateUserPassword(@Param("password") String password, @Param("user_id") Integer userId);
 
     @Modifying(clearAutomatically = true)
     @Transactional
@@ -27,7 +25,7 @@ public interface UserRepository extends JpaRepository<Users, Integer> {
     @Modifying(clearAutomatically = true)
     @Transactional
     @Query("UPDATE Users u set u.phoneNumber = :phoneNumber WHERE u.userId = :user_id")
-    void updateUserPhoneNumber(@Param("user_id") Integer userId, @Param("phoneNumber") String phoneNumber) ;
+    void updateUserPhoneNumber(@Param("user_id") Integer userId, @Param("phoneNumber") String phoneNumber);
 
     Users findUsersByPhoneNumber(String phoneNumber);
 
