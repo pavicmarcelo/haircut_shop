@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b70dbec-61e5-49f1-93e8-ac16ad10a5cf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/HaircutShopController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/HaircutShopController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/dto/HaircutShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/dto/HaircutShop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/dto/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/dto/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/repository/HaircutShopRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/repository/HaircutShopRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/services/impl/HaircutShopServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/services/impl/HaircutShopServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/services/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/services/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/services/interfaces/HaircutShopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/services/interfaces/HaircutShopService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/status_resolver/ExceptionStatusHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/status_resolver/ExceptionStatusHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/HaircutShopServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/HaircutShopServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/UserServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +36,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="code-reassortment" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -196,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HaircutShopServiceTest.fetchHaircutShopsByDescriptionPriceTest" />
-        <item itemvalue="JUnit.HaircutShopServiceTest.fetchCurrentWorkingHaircutShopTest" />
         <item itemvalue="JUnit.UserServiceTest.userUpdateEmailTest" />
         <item itemvalue="JUnit.UserServiceTest.fetchUserByIdTest" />
+        <item itemvalue="JUnit.HaircutShopServiceTest.fetchHaircutShopsByDescriptionPriceTest" />
         <item itemvalue="JUnit.HaircutShopServiceTest.fetchHaircutShopByNameTest" />
+        <item itemvalue="JUnit.HaircutShopServiceTest.fetchCurrentWorkingHaircutShopTest" />
       </list>
     </recent_temporary>
   </component>
@@ -265,6 +257,7 @@
       <workItem from="1587935739498" duration="651000" />
       <workItem from="1587974826024" duration="8209000" />
       <workItem from="1588062709448" duration="3701000" />
+      <workItem from="1588101886239" duration="572000" />
     </task>
     <task id="LOCAL-00001" summary="First use of git, first commit and push.">
       <created>1585477729410</created>
@@ -343,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586191745914</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Code reassortment.">
+      <created>1588069020198</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1588069020198</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -358,7 +358,8 @@
     <MESSAGE value="Finding all users." />
     <MESSAGE value="Create new user." />
     <MESSAGE value="Create new haircut shop test and find haircut shop by name." />
-    <option name="LAST_COMMIT_MESSAGE" value="Create new haircut shop test and find haircut shop by name." />
+    <MESSAGE value="Code reassortment." />
+    <option name="LAST_COMMIT_MESSAGE" value="Code reassortment." />
   </component>
   <component name="WindowStateProjectService">
     <state x="311" y="58" width="800" height="677" key="#Assign_Data_Sources" timestamp="1585328326023">
@@ -425,26 +426,26 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="710" y="284" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1585500694965" />
-    <state width="1253" height="223" key="GridCell.Tab.0.bottom" timestamp="1588067969551">
+    <state width="1253" height="223" key="GridCell.Tab.0.bottom" timestamp="1588070020726">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state width="1253" height="180" key="GridCell.Tab.0.bottom/67.27.1299.741/1366.0.1280.1024@1366.0.1280.1024" timestamp="1586295116461" />
-    <state width="1253" height="223" key="GridCell.Tab.0.bottom/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1588067969551" />
-    <state width="1253" height="223" key="GridCell.Tab.0.center" timestamp="1588067969551">
+    <state width="1253" height="223" key="GridCell.Tab.0.bottom/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1588070020726" />
+    <state width="1253" height="223" key="GridCell.Tab.0.center" timestamp="1588070020726">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state width="1253" height="180" key="GridCell.Tab.0.center/67.27.1299.741/1366.0.1280.1024@1366.0.1280.1024" timestamp="1586295116461" />
-    <state width="1253" height="223" key="GridCell.Tab.0.center/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1588067969551" />
-    <state width="1253" height="223" key="GridCell.Tab.0.left" timestamp="1588067969551">
+    <state width="1253" height="223" key="GridCell.Tab.0.center/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1588070020726" />
+    <state width="1253" height="223" key="GridCell.Tab.0.left" timestamp="1588070020725">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state width="1253" height="180" key="GridCell.Tab.0.left/67.27.1299.741/1366.0.1280.1024@1366.0.1280.1024" timestamp="1586295116460" />
-    <state width="1253" height="223" key="GridCell.Tab.0.left/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1588067969551" />
-    <state width="1253" height="223" key="GridCell.Tab.0.right" timestamp="1588067969551">
+    <state width="1253" height="223" key="GridCell.Tab.0.left/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1588070020725" />
+    <state width="1253" height="223" key="GridCell.Tab.0.right" timestamp="1588070020726">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state width="1253" height="180" key="GridCell.Tab.0.right/67.27.1299.741/1366.0.1280.1024@1366.0.1280.1024" timestamp="1586295116461" />
-    <state width="1253" height="223" key="GridCell.Tab.0.right/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1588067969551" />
+    <state width="1253" height="223" key="GridCell.Tab.0.right/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1588070020726" />
     <state width="1253" height="223" key="GridCell.Tab.1.bottom" timestamp="1588066204054">
       <screen x="67" y="27" width="1299" height="741" />
     </state>

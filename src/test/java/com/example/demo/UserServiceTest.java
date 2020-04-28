@@ -10,8 +10,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.test.context.junit4.SpringRunner;
-
 import java.util.List;
+
 
 @SpringBootTest
 @RunWith(SpringRunner.class)
@@ -20,10 +20,9 @@ public class UserServiceTest {
     @Autowired
     UserServiceImpl userService;
 
-    Users users;
-
     @Autowired
     UserRepository userRepository;
+
 
     @Test
     public void userCreateServiceTest() {
@@ -64,6 +63,7 @@ public class UserServiceTest {
         Assert.assertNotNull(userService.fetchUserByUserId(testUserId));
 
     }
+
 
     @Test(expected = UsernameNotFoundException.class)
     public void deleteUserByIdTest() {
@@ -106,12 +106,15 @@ public class UserServiceTest {
 
     @Test
     public void fetchUserByPhoneNumberTest() {
+
         String usersPhoneNumber = "85473333";
 
         Users userFetchedByPhoneNumber = userService.fetchUserByPhoneNumber(usersPhoneNumber);
 
         Assert.assertEquals(usersPhoneNumber, userFetchedByPhoneNumber.getPhoneNumber());
+
     }
+
 
     @Test(expected = UsernameNotFoundException.class)
     public void userByPhoneNumberDoesNotExist() {
@@ -141,6 +144,7 @@ public class UserServiceTest {
 
     }
 
+
     @Test
     public void fetchAllUsersTest() {
 
@@ -149,6 +153,7 @@ public class UserServiceTest {
         Assert.assertNotNull(fetchAllUsers);
 
     }
+
 
 }
 

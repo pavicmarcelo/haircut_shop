@@ -22,9 +22,6 @@ HaircutShopServiceImpl implements HaircutShopService {
     LocalTime localTime;
 
 
-    HaircutShop haircutShop;
-
-
     @Override
     public void createHaircutShop(HaircutShop haircutShop) {
 
