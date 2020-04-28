@@ -27,7 +27,7 @@
             <column name="haircut_shop_email" type="varchar(255)">
                 <constraints nullable="false" unique="true"/>
             </column>
-            <column name="haircut_shop_prices" type="varchar(255)">
+            <column name="haircut_shop_description_prices" type="varchar(255)">
                 <constraints nullable="false" unique="false"/>
             </column>
             <column name="haircut_shop_password" type="varchar(255)">

@@ -28,7 +28,7 @@ public interface HaircutShopService {
 
     List<HaircutShop> fetchAllCurrentWorkingHaircutShop();
 
- //   List<HaircutShop> fetchHaircutShopByPrice(Double price);
+    List<HaircutShop> fetchHaircutShopByDescriptionPrice(String price);
 
     // List<HaircutShop> getAllCurrentWorkingHaircutShops(long checkHours);
 

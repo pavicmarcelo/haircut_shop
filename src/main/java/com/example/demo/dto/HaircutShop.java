@@ -36,8 +36,8 @@ public class HaircutShop {
     int startWorkTime;
     @Column(name = "end_work_time")
     int endWorkTime;
-    @Column(name = "haircut_shop_prices")
-    String haircutShopPrices;
+    @Column(name = "haircut_shop_description_prices")
+    String haircutShopDescriptionPrices;
     @Column(name = "haircut_shop_password")
     String haircutShopPassword;
 

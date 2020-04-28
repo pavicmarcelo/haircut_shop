@@ -51,7 +51,7 @@ public class HaircutShopServiceTest {
         haircutShopNew.setHaircutShopAddress("adresa shopa 2");
         haircutShopNew.setHaircutShopPhoneNumber("097748235");
         haircutShopNew.setHaircutShopEmail("emaishop@shopovi.fom");
-        haircutShopNew.setHaircutShopPrices("500.00");
+        haircutShopNew.setHaircutShopDescriptionPrices("500.00");
         haircutShopNew.setHaircutShopPassword("sifra3");
 
         HaircutShop haircutShopSaved = haircutShopRepository.save(haircutShopNew);
@@ -123,8 +123,21 @@ public class HaircutShopServiceTest {
 
         Assert.assertEquals(null, shops);
 
-
     }
 
+
+    @Test
+    public void fetchHaircutShopsByDescriptionPriceTest() {
+        String descriptionPrice = "LOW";
+
+        List<HaircutShop> haircutShopsByDescriptionPrice = haircutShopService.fetchHaircutShopByDescriptionPrice(descriptionPrice);
+
+        for(HaircutShop haircutShop : haircutShopsByDescriptionPrice) {
+
+            String descriptionPriceFromDB =  haircutShop.getHaircutShopDescriptionPrices();
+
+            Assert.assertEquals(descriptionPrice, descriptionPriceFromDB);
+        }
+    }
 
 }

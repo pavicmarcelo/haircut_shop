@@ -14,7 +14,8 @@ import java.util.Calendar;
 import java.util.List;
 
 @Service
-public class HaircutShopServiceImpl implements HaircutShopService {
+public class
+HaircutShopServiceImpl implements HaircutShopService {
 
     @Autowired
     HaircutShopRepository haircutShopRepository;
@@ -98,21 +99,16 @@ public class HaircutShopServiceImpl implements HaircutShopService {
     }
 
 
-//    @Override
-//    public List<HaircutShop> fetchHaircutShopByPrice(Double price) {
-//
-//        List<HaircutShop> fetchedHaircutShopByPrice = new ArrayList<>();
-//
-//        if (price == null) {
-//            throw new UsernameNotFoundException("There is no user with this price " + price);
-//        }
-//
-//        for (HaircutShop haircutShop : haircutShopRepository.findAll()) {
-//            if (haircutShop.getHaircutShopPrices(). <= price) {
-//
-//            }
-//        }
-//    }
+    @Override
+    public List<HaircutShop> fetchHaircutShopByDescriptionPrice(String price) {
+
+        if ((price.isEmpty()) ) {
+            throw new UsernameNotFoundException("There is no haircut shops with this price. You can choose between LOW, MEDIUM and HIGH");
+        }
+
+        return haircutShopRepository.findHaircutShopByHaircutShopDescriptionPrices(price);
+
+    }
 
 
 }
