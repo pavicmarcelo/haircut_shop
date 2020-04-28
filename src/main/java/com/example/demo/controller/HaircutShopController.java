@@ -21,11 +21,13 @@ public class HaircutShopController {
     @Autowired
     HaircutShopService haircutShopService;
 
+
     @RequestMapping(value = "/haircut-shop", method = RequestMethod.GET, produces = "application/json;charset=UTF-8")
     public List<HaircutShop> fetchAllHaircutShop() {
 
         return haircutShopRepository.findAll();
     }
+
 
     @RequestMapping(value = "/create-haircut-shop", method = RequestMethod.POST, produces = "application/json;charset=UTF-8")
     public @ResponseBody
@@ -41,6 +43,7 @@ public class HaircutShopController {
 
         return haircutShopService.fetchHaircutShopByName(name);
     }
+
 
     @RequestMapping(value = "/haircut-shop/work-time/", method = RequestMethod.GET, produces = "application/json;charset=UTF-8")
     public List<HaircutShop> getHaircutShopByWorkTime() {
@@ -63,6 +66,5 @@ public class HaircutShopController {
 
         return haircutShopService.fetchHaircutShopByDescriptionPrice(price);
     }
-
 
 }

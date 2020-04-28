@@ -28,8 +28,8 @@ public class UserServiceImpl implements UserService {
         if (email != null) {
             userRepository.updateUserEmail(userId, email);
         }
-
     }
+
 
     @Override
     public void updateUsersPassword(Integer userId, String password) {
@@ -40,12 +40,16 @@ public class UserServiceImpl implements UserService {
         }
     }
 
+
     @Override
     public void updateUserPhoneNumber(Integer userId, String phoneNumber) {
+
         if (phoneNumber != null) {
+
             userRepository.updateUserPhoneNumber(userId, phoneNumber);
         }
     }
+
 
     @Override
     public Users fetchUserByUserId(Integer userId) {
@@ -60,6 +64,7 @@ public class UserServiceImpl implements UserService {
             throw new UsernameNotFoundException("There is no user with that Id number.");
         }
     }
+
 
     @Override
     public List<Users> fetchUserByName(String name) {
@@ -77,10 +82,9 @@ public class UserServiceImpl implements UserService {
     @Override
     public void deleteUserByUserId(Integer userId) {
 
-
         userRepository.deleteById(userId);
-
     }
+
 
     @Override
     public Users fetchUserByPhoneNumber(String phoneNumber) {
@@ -120,11 +124,15 @@ public class UserServiceImpl implements UserService {
         return null;
     }
 
+
     @Override
     public List<Users> findAllUsers() {
+
         List<Users> allUsers = userRepository.findAll();
+
         return allUsers;
     }
+
 
     @Override
     public Users createUser(Users users) {
@@ -134,8 +142,11 @@ public class UserServiceImpl implements UserService {
         return userRepository.save(users);
     }
 
+
     private String passHashed(String password) {
 
         return passwordEncoder.encode(password);
     }
+
+
 }

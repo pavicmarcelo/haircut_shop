@@ -28,16 +28,19 @@ HaircutShopServiceImpl implements HaircutShopService {
         haircutShopRepository.save(haircutShop);
     }
 
+
     @Override
     public void deleteHaircutShopById(Integer haircutShopId) {
 
         haircutShopRepository.deleteById(haircutShopId);
     }
 
+
     @Override
     public void updatePhoneNumber(Integer haircutShopId, String phoneNumber) {
 
     }
+
 
     @Override
     public void updateEmail(Integer haircutShopId, String email) {
@@ -45,16 +48,19 @@ HaircutShopServiceImpl implements HaircutShopService {
 
     }
 
+
     @Override
     public void updateAddress(Integer haircutShopId, String address) {
 
 
     }
 
+
     @Override
     public void updatePassword(Integer haircutShopId, String password) {
 
     }
+
 
     @Override
     public HaircutShop fetchHaircutShopByHaircutShopId(Integer haircutShopId) {
@@ -62,6 +68,7 @@ HaircutShopServiceImpl implements HaircutShopService {
         return haircutShopRepository.findHaircutShopByHaircutShopId(haircutShopId);
 
     }
+
 
     @Override
     public List<HaircutShop> fetchHaircutShopByName(String name) {
@@ -74,6 +81,7 @@ HaircutShopServiceImpl implements HaircutShopService {
         }
         return haircutShopFetchedByName;
     }
+
 
     @Override
     public List<HaircutShop> fetchAllCurrentWorkingHaircutShop() {

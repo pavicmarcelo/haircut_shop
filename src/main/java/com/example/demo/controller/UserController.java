@@ -26,15 +26,14 @@ public class UserController {
             @PathVariable(value = "id") final Integer userId) {
 
         userService.deleteUserByUserId(userId);
-
     }
+
 
     @RequestMapping(value = "/users/{id}/password/update", method = RequestMethod.PUT, produces = "application/json;charset=UTF-8", consumes = "application/json;")
     public @ResponseBody
     void updateUserPassword(@PathVariable(value = "id") Integer userId, @RequestBody Users users) {
 
         userService.updateUsersPassword(userId, users.getPassword());
-
     }
 
 
@@ -46,14 +45,15 @@ public class UserController {
         userService.updateUserEmail(userId, email);
     }
 
+
     @RequestMapping(value = "/users/{id}/phoneNumber/update", method = RequestMethod.PUT, produces = "application/json;charset=UTF-8", consumes = "application/json;")
     public @ResponseBody
     void updateUserPhoneNumber(
             @PathVariable(value = "id") final Integer userId, @RequestBody Users users) {
 
         userRepository.updateUserPhoneNumber(userId, users.getPhoneNumber());
-
     }
+
 
     @RequestMapping(value = "/users/{id}", method = RequestMethod.GET, produces = "application/json;charset=UTF-8")
     public Users getUserById(
@@ -67,8 +67,8 @@ public class UserController {
     public List<Users> getUsers(@RequestParam(required = false, name = "name") String name, @RequestParam(required = false, name = "email") String email) {
 
         return userService.fetchUsersInfo(name, email);
-
     }
+
 
     @RequestMapping(value = "/users", method = RequestMethod.GET, produces = "application/json;charset=UTF-8")
     public List<Users> findAllUsers() {
@@ -76,13 +76,14 @@ public class UserController {
         return userService.findAllUsers();
     }
 
-    @RequestMapping(value = "/create-user", method = RequestMethod.POST, produces = "application/json;charset=UTF-8")
 
+    @RequestMapping(value = "/create-user", method = RequestMethod.POST, produces = "application/json;charset=UTF-8")
     public @ResponseBody
     Users creatingUser(@RequestBody Users users) {
 
         return userService.createUser(users);
     }
+
 
     @RequestMapping(value = "/users/name/{name}", method = RequestMethod.GET, produces = "application/json;charset=UTF-8")
     public List<Users> getUsersByName(
@@ -90,6 +91,7 @@ public class UserController {
 
         return userService.fetchUserByName(name);
     }
+
 
     @RequestMapping(value = "/users/phoneNumber/{phoneNumber}", method = RequestMethod.GET, produces = "application/json;charset=UTF-8")
     public Users getUserByPhoneNumber(
