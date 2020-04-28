@@ -4,12 +4,9 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.math.BigInteger;
-import java.util.Date;
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
-import java.sql.Time;
-import java.time.LocalDate;
+
 
 @NoArgsConstructor
 @AllArgsConstructor

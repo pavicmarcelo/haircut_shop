@@ -8,9 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import java.text.ParseException;
 import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.List;
 
 @Service
@@ -102,7 +100,7 @@ HaircutShopServiceImpl implements HaircutShopService {
     @Override
     public List<HaircutShop> fetchHaircutShopByDescriptionPrice(String price) {
 
-        if ((price.isEmpty()) ) {
+        if ((price.isEmpty())) {
             throw new UsernameNotFoundException("There is no haircut shops with this price. You can choose between LOW, MEDIUM and HIGH");
         }
 

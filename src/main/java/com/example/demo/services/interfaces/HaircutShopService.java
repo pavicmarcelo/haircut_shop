@@ -2,10 +2,7 @@ package com.example.demo.services.interfaces;
 
 import com.example.demo.dto.HaircutShop;
 
-import java.text.ParseException;
 import java.util.List;
-
-
 
 
 public interface HaircutShopService {
@@ -29,9 +26,5 @@ public interface HaircutShopService {
     List<HaircutShop> fetchAllCurrentWorkingHaircutShop();
 
     List<HaircutShop> fetchHaircutShopByDescriptionPrice(String price);
-
-    // List<HaircutShop> getAllCurrentWorkingHaircutShops(long checkHours);
-
-    // List<HaircutShop> fetchAllHaircutShop();
 
 }

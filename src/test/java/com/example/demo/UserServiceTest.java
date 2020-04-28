@@ -4,7 +4,6 @@ import com.example.demo.dto.Users;
 import com.example.demo.repository.UserRepository;
 import com.example.demo.services.impl.UserServiceImpl;
 import org.junit.Assert;
-import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,7 +19,6 @@ public class UserServiceTest {
 
     @Autowired
     UserServiceImpl userService;
-
 
     Users users;
 
@@ -116,7 +114,7 @@ public class UserServiceTest {
     }
 
     @Test(expected = UsernameNotFoundException.class)
-    public void userByPhoneNumberDoesNotExist(){
+    public void userByPhoneNumberDoesNotExist() {
 
         String falseUserNumber = "7777";
 
@@ -136,7 +134,7 @@ public class UserServiceTest {
 
         List<Users> fetchedUsersByName = userService.fetchUserByName(name);
 
-        for(Users users : fetchedUsersByName){
+        for (Users users : fetchedUsersByName) {
 
             Assert.assertEquals(name, users.getName());
         }
