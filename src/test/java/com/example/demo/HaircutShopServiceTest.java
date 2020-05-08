@@ -42,12 +42,12 @@ public class HaircutShopServiceTest {
 
         HaircutShop haircutShopNew = new HaircutShop();
 
-        haircutShopNew.setHaircutShopName("ImeSalona");
-        haircutShopNew.setHaircutShopAddress("adresa shopa 2");
-        haircutShopNew.setHaircutShopPhoneNumber("097748235");
-        haircutShopNew.setHaircutShopEmail("emaishop@shopovi.fom");
-        haircutShopNew.setHaircutShopDescriptionPrices("500.00");
-        haircutShopNew.setHaircutShopPassword("sifra3");
+        haircutShopNew.setName("ImeSalona");
+        haircutShopNew.setAddress("adresa shopa 2");
+        haircutShopNew.setPhoneNumber("097748235");
+        haircutShopNew.setEmail("emaishop@shopovi.fom");
+        haircutShopNew.setDescriptionPrices("500.00");
+        haircutShopNew.setPassword("sifra3");
 
         HaircutShop haircutShopSaved = haircutShopRepository.save(haircutShopNew);
 
@@ -65,7 +65,7 @@ public class HaircutShopServiceTest {
 
         for (HaircutShop haircutShop : haircutShopsByName) {
 
-            String nameFromDb = haircutShop.getHaircutShopName();
+            String nameFromDb = haircutShop.getName();
 
             Assert.assertEquals(expName, nameFromDb);
         }
@@ -97,13 +97,13 @@ public class HaircutShopServiceTest {
 
         int id = 10;
 
-        if (haircutShopService.fetchHaircutShopByHaircutShopId(id) == null) {
+        if (haircutShopService.fetchHaircutShopById(id) == null) {
             throw new NoSuchElementException();
         }
 
         haircutShopService.deleteHaircutShopById(id);
 
-        Assert.assertSame(null, haircutShopService.fetchHaircutShopByHaircutShopId(id));
+        Assert.assertSame(null, haircutShopService.fetchHaircutShopById(id));
 
     }
 
@@ -111,7 +111,7 @@ public class HaircutShopServiceTest {
     @Test
     public void checkGettingHaircutShopByID() {
 
-        HaircutShop shops = haircutShopRepository.findHaircutShopByHaircutShopId(5);
+        HaircutShop shops = haircutShopRepository.findHaircutShopById(5);
 
         Assert.assertEquals(null, shops);
 
@@ -126,7 +126,7 @@ public class HaircutShopServiceTest {
 
         for (HaircutShop haircutShop : haircutShopsByDescriptionPrice) {
 
-            String descriptionPriceFromDB = haircutShop.getHaircutShopDescriptionPrices();
+            String descriptionPriceFromDB = haircutShop.getDescriptionPrices();
 
             Assert.assertEquals(descriptionPrice, descriptionPriceFromDB);
         }

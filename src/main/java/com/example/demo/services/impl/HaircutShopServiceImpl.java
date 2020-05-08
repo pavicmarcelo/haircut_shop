@@ -63,9 +63,9 @@ HaircutShopServiceImpl implements HaircutShopService {
 
 
     @Override
-    public HaircutShop fetchHaircutShopByHaircutShopId(Integer haircutShopId) {
+    public HaircutShop fetchHaircutShopById(Integer haircutShopId) {
 
-        return haircutShopRepository.findHaircutShopByHaircutShopId(haircutShopId);
+        return haircutShopRepository.findHaircutShopById(haircutShopId);
 
     }
 
@@ -73,7 +73,7 @@ HaircutShopServiceImpl implements HaircutShopService {
     @Override
     public List<HaircutShop> fetchHaircutShopByName(String name) {
 
-        List<HaircutShop> haircutShopFetchedByName = haircutShopRepository.findHaircutShopByHaircutShopName(name);
+        List<HaircutShop> haircutShopFetchedByName = haircutShopRepository.findHaircutShopByName(name);
 
         if (haircutShopFetchedByName.isEmpty()) {
 
@@ -109,7 +109,7 @@ HaircutShopServiceImpl implements HaircutShopService {
             throw new UsernameNotFoundException("There is no haircut shops with this price. You can choose between LOW, MEDIUM and HIGH");
         }
 
-        return haircutShopRepository.findHaircutShopByHaircutShopDescriptionPrices(price);
+        return haircutShopRepository.findHaircutShopByDescriptionPrices(price);
 
     }
 

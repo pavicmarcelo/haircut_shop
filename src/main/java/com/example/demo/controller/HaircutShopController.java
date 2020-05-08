@@ -7,13 +7,13 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 
 @RestController
 @Validated
 @Slf4j
-public class HaircutShopController {
+public class
+HaircutShopController {
 
     @Autowired
     HaircutShopRepository haircutShopRepository;
@@ -54,9 +54,9 @@ public class HaircutShopController {
 
     @RequestMapping(value = "/haircut-shop/{id}", method = RequestMethod.DELETE, produces = "application/json;charset=UTF-8")
     public void deleteHaircutShopById(
-            @PathVariable(value = "id") final Integer haircutShopId) {
+            @PathVariable(value = "id") final Integer id) {
 
-        haircutShopService.deleteHaircutShopById(haircutShopId);
+        haircutShopService.deleteHaircutShopById(id);
     }
 
 
