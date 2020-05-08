@@ -19,10 +19,10 @@ public class Users {
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "users_seq")
     @SequenceGenerator(name = "users_seq", sequenceName = "seq_users", initialValue = 1, allocationSize = 1)
     Integer userId;
-    String name;
-    String email;
     @Column(name = "phone_number")
     String phoneNumber;
+    String name;
+    String email;
     String password;
 
 }
