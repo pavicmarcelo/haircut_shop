@@ -15,22 +15,22 @@
                 <constraints nullable="false" unique="true" primaryKey="true" primaryKeyName="pk_haircut_shop"/>
             </column>
 
-            <column name="haircut_shop_name" type="varchar(255)">
+            <column name="name" type="varchar(255)">
                 <constraints nullable="false" unique="false"/>
             </column>
-            <column name="haircut_shop_address" type="varchar(255)">
+            <column name="address" type="varchar(255)">
                 <constraints nullable="false" unique="false"/>
             </column>
-            <column name="haircut_shop_phone_number" type="varchar(255)">
+            <column name="phone_number" type="varchar(255)">
                 <constraints nullable="false" unique="true"/>
             </column>
-            <column name="haircut_shop_email" type="varchar(255)">
+            <column name="email" type="varchar(255)">
                 <constraints nullable="false" unique="true"/>
             </column>
-            <column name="haircut_shop_description_prices" type="varchar(255)">
+            <column name="description_prices" type="varchar(255)">
                 <constraints nullable="false" unique="false"/>
             </column>
-            <column name="haircut_shop_password" type="varchar(255)">
+            <column name="password" type="varchar(255)">
                 <constraints nullable="false" unique="false"/>
             </column>
             <column name="start_work_time" type="int">

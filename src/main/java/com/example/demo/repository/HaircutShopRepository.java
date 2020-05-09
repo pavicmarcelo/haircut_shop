@@ -7,7 +7,7 @@ import java.util.List;
 
 public interface HaircutShopRepository extends JpaRepository<HaircutShop, Integer> {
 
-    HaircutShop findHaircutShopById(Integer id);
+    HaircutShop findHaircutShopByHaircutShopId(Integer haircutShopId);
 
     List<HaircutShop> findHaircutShopByName(String name);
 

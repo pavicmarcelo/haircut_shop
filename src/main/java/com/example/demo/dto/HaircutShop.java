@@ -19,7 +19,8 @@ public class HaircutShop {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "haircut_shop_seq")
     @SequenceGenerator(name = "haircut_shop_seq", sequenceName = "seq_haircut_shop", initialValue = 1, allocationSize = 1)
-    Integer id;
+    @Column(name = "haircut_shop_id")
+    Integer haircutShopId;
     @Column(name = "start_work_time")
     int startWorkTime;
     @Column(name = "end_work_time")

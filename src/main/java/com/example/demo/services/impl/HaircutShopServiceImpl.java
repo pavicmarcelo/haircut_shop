@@ -63,9 +63,9 @@ HaircutShopServiceImpl implements HaircutShopService {
 
 
     @Override
-    public HaircutShop fetchHaircutShopById(Integer haircutShopId) {
+    public HaircutShop fetchHaircutShopByHaircutShopId(Integer haircutShopId) {
 
-        return haircutShopRepository.findHaircutShopById(haircutShopId);
+        return haircutShopRepository.findHaircutShopByHaircutShopId(haircutShopId);
 
     }
 

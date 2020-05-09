@@ -19,7 +19,7 @@ public interface HaircutShopService {
 
     void updatePassword(Integer haircutShopId, String password);
 
-    HaircutShop fetchHaircutShopById(Integer id);
+    HaircutShop fetchHaircutShopByHaircutShopId(Integer haircutShopId);
 
     List<HaircutShop> fetchHaircutShopByName(String haircutShopName);
 

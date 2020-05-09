@@ -95,15 +95,15 @@ public class HaircutShopServiceTest {
     @Test
     public void deleteHaircutShopByIdTest() {
 
-        int id = 10;
+        int haircutShopId = 10;
 
-        if (haircutShopService.fetchHaircutShopById(id) == null) {
+        if (haircutShopService.fetchHaircutShopByHaircutShopId(haircutShopId) == null) {
             throw new NoSuchElementException();
         }
 
-        haircutShopService.deleteHaircutShopById(id);
+        haircutShopService.deleteHaircutShopById(haircutShopId);
 
-        Assert.assertSame(null, haircutShopService.fetchHaircutShopById(id));
+        Assert.assertSame(null, haircutShopService.fetchHaircutShopByHaircutShopId(haircutShopId));
 
     }
 
@@ -111,7 +111,7 @@ public class HaircutShopServiceTest {
     @Test
     public void checkGettingHaircutShopByID() {
 
-        HaircutShop shops = haircutShopRepository.findHaircutShopById(5);
+        HaircutShop shops = haircutShopRepository.findHaircutShopByHaircutShopId(5);
 
         Assert.assertEquals(null, shops);
 

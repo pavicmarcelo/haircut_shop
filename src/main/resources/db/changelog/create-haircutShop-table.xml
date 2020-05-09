@@ -11,7 +11,7 @@
         <createTable tableName="haircut_shop"
                      remarks="A table to contain all haircut_shop">
 
-            <column name="id" type="int" defaultValueSequenceNext="seq_haircut_shop">
+            <column name="haircut_shop_id" type="int" defaultValueSequenceNext="seq_haircut_shop">
                 <constraints nullable="false" unique="true" primaryKey="true" primaryKeyName="pk_haircut_shop"/>
             </column>
 

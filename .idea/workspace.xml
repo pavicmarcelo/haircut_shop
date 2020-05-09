@@ -19,18 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b70dbec-61e5-49f1-93e8-ac16ad10a5cf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_6_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_7_0_M1.xml" afterDir="false" />
+    <list default="true" id="4b70dbec-61e5-49f1-93e8-ac16ad10a5cf" name="Default Changelist" comment="Renaming column names.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HaircutShopApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HaircutShopApp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/HaircutShopController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/HaircutShopController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/dto/HaircutShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/dto/HaircutShop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/repository/HaircutShopRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/repository/HaircutShopRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/services/impl/HaircutShopServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/services/impl/HaircutShopServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/services/interfaces/HaircutShopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/services/interfaces/HaircutShopService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog/create-haircutShop-table.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/create-haircutShop-table.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/HaircutShopServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/HaircutShopServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/changelog/create-haircutShop-table.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db/changelog/create-haircutShop-table.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +58,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="renaming_column_names" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -288,6 +285,7 @@
       <workItem from="1588924675733" duration="375000" />
       <workItem from="1588925135182" duration="2438000" />
       <workItem from="1588927684390" duration="1086000" />
+      <workItem from="1589008366502" duration="4579000" />
     </task>
     <task id="LOCAL-00001" summary="First use of git, first commit and push.">
       <created>1585477729410</created>
@@ -486,42 +484,42 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="710" y="284" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1585500694965" />
-    <state width="1253" height="246" key="GridCell.Tab.0.bottom" timestamp="1588928736134">
+    <state width="1253" height="188" key="GridCell.Tab.0.bottom" timestamp="1589015838858">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state width="1253" height="180" key="GridCell.Tab.0.bottom/67.27.1299.741/1366.0.1280.1024@1366.0.1280.1024" timestamp="1586295116461" />
-    <state width="1253" height="246" key="GridCell.Tab.0.bottom/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1588928736134" />
-    <state width="1253" height="246" key="GridCell.Tab.0.center" timestamp="1588928736133">
+    <state width="1253" height="188" key="GridCell.Tab.0.bottom/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1589015838858" />
+    <state width="1253" height="188" key="GridCell.Tab.0.center" timestamp="1589015838858">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state width="1253" height="180" key="GridCell.Tab.0.center/67.27.1299.741/1366.0.1280.1024@1366.0.1280.1024" timestamp="1586295116461" />
-    <state width="1253" height="246" key="GridCell.Tab.0.center/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1588928736133" />
-    <state width="1253" height="246" key="GridCell.Tab.0.left" timestamp="1588928736133">
+    <state width="1253" height="188" key="GridCell.Tab.0.center/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1589015838858" />
+    <state width="1253" height="188" key="GridCell.Tab.0.left" timestamp="1589015838856">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state width="1253" height="180" key="GridCell.Tab.0.left/67.27.1299.741/1366.0.1280.1024@1366.0.1280.1024" timestamp="1586295116460" />
-    <state width="1253" height="246" key="GridCell.Tab.0.left/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1588928736133" />
-    <state width="1253" height="246" key="GridCell.Tab.0.right" timestamp="1588928736134">
+    <state width="1253" height="188" key="GridCell.Tab.0.left/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1589015838856" />
+    <state width="1253" height="188" key="GridCell.Tab.0.right" timestamp="1589015838858">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state width="1253" height="180" key="GridCell.Tab.0.right/67.27.1299.741/1366.0.1280.1024@1366.0.1280.1024" timestamp="1586295116461" />
-    <state width="1253" height="246" key="GridCell.Tab.0.right/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1588928736134" />
-    <state width="1253" height="246" key="GridCell.Tab.1.bottom" timestamp="1588928736134">
+    <state width="1253" height="188" key="GridCell.Tab.0.right/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1589015838858" />
+    <state width="1253" height="188" key="GridCell.Tab.1.bottom" timestamp="1589015838859">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="246" key="GridCell.Tab.1.bottom/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1588928736134" />
-    <state width="1253" height="246" key="GridCell.Tab.1.center" timestamp="1588928736134">
+    <state width="1253" height="188" key="GridCell.Tab.1.bottom/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1589015838859" />
+    <state width="1253" height="188" key="GridCell.Tab.1.center" timestamp="1589015838859">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="246" key="GridCell.Tab.1.center/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1588928736134" />
-    <state width="1253" height="246" key="GridCell.Tab.1.left" timestamp="1588928736134">
+    <state width="1253" height="188" key="GridCell.Tab.1.center/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1589015838859" />
+    <state width="1253" height="188" key="GridCell.Tab.1.left" timestamp="1589015838858">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="246" key="GridCell.Tab.1.left/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1588928736134" />
-    <state width="1253" height="246" key="GridCell.Tab.1.right" timestamp="1588928736134">
+    <state width="1253" height="188" key="GridCell.Tab.1.left/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1589015838858" />
+    <state width="1253" height="188" key="GridCell.Tab.1.right" timestamp="1589015838859">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="246" key="GridCell.Tab.1.right/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1588928736134" />
+    <state width="1253" height="188" key="GridCell.Tab.1.right/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1589015838859" />
     <state width="1253" height="216" key="GridCell.Tab.2.bottom" timestamp="1588021612884">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -583,16 +581,20 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="67" y="27" width="618" height="741" key="find.popup/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1588922969781" />
+    <state x="365" y="259" width="693" height="275" key="git4idea.rebase.GitRebaseDialog" timestamp="1588929608054">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="365" y="259" width="693" height="275" key="git4idea.rebase.GitRebaseDialog/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1588929608054" />
     <state x="1433" y="99" width="1213" height="821" key="new project wizard" timestamp="1585499530807">
       <screen x="1366" y="0" width="1280" height="1024" />
     </state>
     <state x="1433" y="99" width="1213" height="821" key="new project wizard/67.27.1299.741/1366.0.1280.1024@1366.0.1280.1024" timestamp="1585499530807" />
     <state x="67" y="99" width="1289" height="594" key="new project wizard/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1585419526846" />
-    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1588928017884">
+    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1588929604301">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="1673" y="86" width="672" height="937" key="search.everywhere.popup/67.27.1299.741/1366.0.1280.1024@1366.0.1280.1024" timestamp="1586781506475" />
-    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1588928017884" />
+    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1588929604301" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
