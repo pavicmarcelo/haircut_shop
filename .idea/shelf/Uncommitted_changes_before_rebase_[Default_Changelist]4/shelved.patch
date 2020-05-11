@@ -1,0 +1,304 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"4b70dbec-61e5-49f1-93e8-ac16ad10a5cf\" name=\"Default Changelist\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/pom.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/pom.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/com/example/demo/services/impl/HaircutShopServiceImpl.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/com/example/demo/services/impl/HaircutShopServiceImpl.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/com/example/demo/UserServiceTest.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/com/example/demo/UserServiceTest.java\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"DatabaseView\">\n    <option name=\"SHOW_INTERMEDIATE\" value=\"true\" />\n    <option name=\"GROUP_DATA_SOURCES\" value=\"true\" />\n    <option name=\"GROUP_SCHEMA\" value=\"true\" />\n    <option name=\"GROUP_CONTENTS\" value=\"false\" />\n    <option name=\"SORT_POSITIONED\" value=\"false\" />\n    <option name=\"SHOW_EMPTY_GROUPS\" value=\"false\" />\n    <option name=\"AUTO_SCROLL_FROM_SOURCE\" value=\"false\" />\n    <option name=\"HIDDEN_KINDS\">\n      <set />\n    </option>\n    <expand />\n    <select />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"code-reassortment\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"GitRewordedCommitMessages\">\n    <option name=\"onto\" value=\"9035b66e815ae73be828403eac014064fdf0a822\" />\n  </component>\n  <component name=\"MavenImportPreferences\">\n    <option name=\"importingSettings\">\n      <MavenImportingSettings>\n        <option name=\"vmOptionsForImporter\" value=\"-Xmx768m\" />\n      </MavenImportingSettings>\n    </option>\n  </component>\n  <component name=\"ProjectId\" id=\"1ZP6DtJAf00haz07WQgQNB7EN0v\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"LombokPluginEnabledInProject\" value=\"true\" />\n    <property name=\"LombokPluginIS_ANNOTATION_PROCESSING_CHECK_Enabled\" value=\"true\" />\n    <property name=\"LombokPluginIS_BUILDER_Enabled\" value=\"true\" />\n    <property name=\"LombokPluginIS_CONSTRUCTOR_Enabled\" value=\"true\" />\n    <property name=\"LombokPluginIS_DELEGATE_Enabled\" value=\"true\" />\n    <property name=\"LombokPluginIS_LOG_Enabled\" value=\"true\" />\n    <property name=\"LombokPluginIS_LOMBOK_VERSION_CHECK_Enabled\" value=\"true\" />\n    <property name=\"LombokPluginIS_MISSING_LOMBOK_CHECK_Enabled\" value=\"true\" />\n    <property name=\"LombokPluginIS_VAL_Enabled\" value=\"true\" />\n    <property name=\"RequestMappingsPanelOrder0\" value=\"0\" />\n    <property name=\"RequestMappingsPanelOrder1\" value=\"1\" />\n    <property name=\"RequestMappingsPanelWidth0\" value=\"75\" />\n    <property name=\"RequestMappingsPanelWidth1\" value=\"75\" />\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"aspect.path.notification.shown\" value=\"true\" />\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\n    <property name=\"project.structure.last.edited\" value=\"Modules\" />\n    <property name=\"project.structure.proportion\" value=\"0.15\" />\n    <property name=\"project.structure.side.proportion\" value=\"0.40574712\" />\n    <property name=\"run.code.analysis.last.selected.profile\" value=\"pProject Default\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"preferences.pluginManager\" />\n  </component>\n  <component name=\"RecentsManager\">\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/src/main/resources\" />\n    </key>\n    <key name=\"MoveClassesOrPackagesDialog.RECENTS_KEY\">\n      <recent name=\"com.example.demo\" />\n    </key>\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\n      <recent name=\"dto\" />\n    </key>\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/src/main/resources\" />\n      <recent name=\"$PROJECT_DIR$/src/main/java/com/example/demo/application\" />\n    </key>\n  </component>\n  <component name=\"RunManager\" selected=\"JUnit.HaircutShopServiceTest.fetchHaircutShopsByDescriptionPriceTest\">\n    <configuration name=\"HaircutShopServiceTest.fetchCurrentWorkingHaircutShopTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"HaircutShopApp\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"com.example.demo.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"com.example.demo\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.example.demo.HaircutShopServiceTest\" />\n      <option name=\"METHOD_NAME\" value=\"fetchCurrentWorkingHaircutShopTest\" />\n      <option name=\"TEST_OBJECT\" value=\"method\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"HaircutShopServiceTest.fetchHaircutShopByNameTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"HaircutShopApp\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"com.example.demo.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"com.example.demo\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.example.demo.HaircutShopServiceTest\" />\n      <option name=\"METHOD_NAME\" value=\"fetchHaircutShopByNameTest\" />\n      <option name=\"TEST_OBJECT\" value=\"method\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"HaircutShopServiceTest.fetchHaircutShopsByDescriptionPriceTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"HaircutShopApp\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"com.example.demo.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"com.example.demo\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.example.demo.HaircutShopServiceTest\" />\n      <option name=\"METHOD_NAME\" value=\"fetchHaircutShopsByDescriptionPriceTest\" />\n      <option name=\"TEST_OBJECT\" value=\"method\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"UserServiceTest.fetchUserByIdTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"HaircutShopApp\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"com.example.demo.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"com.example.demo\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.example.demo.UserServiceTest\" />\n      <option name=\"METHOD_NAME\" value=\"fetchUserByIdTest\" />\n      <option name=\"TEST_OBJECT\" value=\"method\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"UserServiceTest.userUpdateEmailTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"HaircutShopApp\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"com.example.demo.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"com.example.demo\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.example.demo.UserServiceTest\" />\n      <option name=\"METHOD_NAME\" value=\"userUpdateEmailTest\" />\n      <option name=\"TEST_OBJECT\" value=\"method\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"HaircutShopApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\">\n      <module name=\"HaircutShopApp\" />\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.example.demo.HaircutShopApplication\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"JUnit.UserServiceTest.userUpdateEmailTest\" />\n        <item itemvalue=\"JUnit.UserServiceTest.fetchUserByIdTest\" />\n        <item itemvalue=\"JUnit.HaircutShopServiceTest.fetchHaircutShopsByDescriptionPriceTest\" />\n        <item itemvalue=\"JUnit.HaircutShopServiceTest.fetchHaircutShopByNameTest\" />\n        <item itemvalue=\"JUnit.HaircutShopServiceTest.fetchCurrentWorkingHaircutShopTest\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SvnConfiguration\">\n    <configuration />\n  </component>\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"4b70dbec-61e5-49f1-93e8-ac16ad10a5cf\" name=\"Default Changelist\" comment=\"\" />\n      <created>1584728265824</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1584728265824</updated>\n      <workItem from=\"1584728276894\" duration=\"1352000\" />\n      <workItem from=\"1584729799592\" duration=\"2482000\" />\n      <workItem from=\"1584732968385\" duration=\"18000\" />\n      <workItem from=\"1584734513909\" duration=\"148000\" />\n      <workItem from=\"1584776684781\" duration=\"2629000\" />\n      <workItem from=\"1584804352126\" duration=\"10080000\" />\n      <workItem from=\"1584874159290\" duration=\"6448000\" />\n      <workItem from=\"1584954752542\" duration=\"5557000\" />\n      <workItem from=\"1585127945880\" duration=\"897000\" />\n      <workItem from=\"1585134394337\" duration=\"704000\" />\n      <workItem from=\"1585209660272\" duration=\"7283000\" />\n      <workItem from=\"1585218834176\" duration=\"33000\" />\n      <workItem from=\"1585221111384\" duration=\"4139000\" />\n      <workItem from=\"1585299408756\" duration=\"587000\" />\n      <workItem from=\"1585324193381\" duration=\"9054000\" />\n      <workItem from=\"1585411506031\" duration=\"5873000\" />\n      <workItem from=\"1585429451101\" duration=\"1301000\" />\n      <workItem from=\"1585477380240\" duration=\"4981000\" />\n      <workItem from=\"1585499702467\" duration=\"17000\" />\n      <workItem from=\"1585499858844\" duration=\"1076000\" />\n      <workItem from=\"1585500995477\" duration=\"849000\" />\n      <workItem from=\"1585505917714\" duration=\"374000\" />\n      <workItem from=\"1585575376924\" duration=\"1390000\" />\n      <workItem from=\"1585679953025\" duration=\"1734000\" />\n      <workItem from=\"1586116505611\" duration=\"3139000\" />\n      <workItem from=\"1586178795141\" duration=\"3043000\" />\n      <workItem from=\"1586207343933\" duration=\"3071000\" />\n      <workItem from=\"1586251853192\" duration=\"6292000\" />\n      <workItem from=\"1586283403098\" duration=\"3716000\" />\n      <workItem from=\"1586335133931\" duration=\"6860000\" />\n      <workItem from=\"1586346244727\" duration=\"624000\" />\n      <workItem from=\"1586375937939\" duration=\"609000\" />\n      <workItem from=\"1586424772795\" duration=\"168000\" />\n      <workItem from=\"1586425004625\" duration=\"4528000\" />\n      <workItem from=\"1586509697106\" duration=\"9596000\" />\n      <workItem from=\"1586597957358\" duration=\"14187000\" />\n      <workItem from=\"1586776345269\" duration=\"2259000\" />\n      <workItem from=\"1586845328878\" duration=\"12446000\" />\n      <workItem from=\"1586943765922\" duration=\"1799000\" />\n      <workItem from=\"1587025213771\" duration=\"9713000\" />\n      <workItem from=\"1587108341640\" duration=\"9808000\" />\n      <workItem from=\"1587154000269\" duration=\"400000\" />\n      <workItem from=\"1587154505408\" duration=\"7212000\" />\n      <workItem from=\"1587200113852\" duration=\"7223000\" />\n      <workItem from=\"1587309835903\" duration=\"1844000\" />\n      <workItem from=\"1587373669483\" duration=\"10657000\" />\n      <workItem from=\"1587458359164\" duration=\"10601000\" />\n      <workItem from=\"1587713598530\" duration=\"6012000\" />\n      <workItem from=\"1587935739498\" duration=\"651000\" />\n      <workItem from=\"1587974826024\" duration=\"8209000\" />\n      <workItem from=\"1588062709448\" duration=\"3701000\" />\n      <workItem from=\"1588101886239\" duration=\"572000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"First use of git, first commit and push.\">\n      <created>1585477729410</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1585477729410</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"First use of git, first commit and push.\">\n      <created>1585478082336</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1585478082336</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"First use of git, first commit and push.\">\n      <created>1585478182885</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1585478182886</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"First use of git, first commit and push.\">\n      <created>1585500744077</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1585500744077</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"First use of git, first commit and push.\">\n      <created>1585501075390</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1585501075391</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"Creating hashed user password and updating user password.\">\n      <created>1585579166661</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1585579166661</updated>\n    </task>\n    <task id=\"LOCAL-00007\" summary=\"Deleting user.\">\n      <created>1585597458746</created>\n      <option name=\"number\" value=\"00007\" />\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1585597458746</updated>\n    </task>\n    <task id=\"LOCAL-00008\" summary=\"Deleting user.\">\n      <created>1585601978944</created>\n      <option name=\"number\" value=\"00008\" />\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1585601978945</updated>\n    </task>\n    <task id=\"LOCAL-00009\" summary=\"Finding user by user name.\">\n      <created>1586097589154</created>\n      <option name=\"number\" value=\"00009\" />\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1586097589154</updated>\n    </task>\n    <task id=\"LOCAL-00010\" summary=\"Finding user by phone number.\">\n      <created>1586108882414</created>\n      <option name=\"number\" value=\"00010\" />\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1586108882430</updated>\n    </task>\n    <task id=\"LOCAL-00011\" summary=\"Finding all users.\">\n      <created>1586191745914</created>\n      <option name=\"number\" value=\"00011\" />\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1586191745914</updated>\n    </task>\n    <task id=\"LOCAL-00012\" summary=\"Code reassortment.\">\n      <created>1588069020198</created>\n      <option name=\"number\" value=\"00012\" />\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1588069020198</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"13\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"2\" />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"First use of git, first commit and push.\" />\n    <MESSAGE value=\"Creating hashed user password and updating user password.\" />\n    <MESSAGE value=\"Deleting user.\" />\n    <MESSAGE value=\"Finding user by user name.\" />\n    <MESSAGE value=\"Finding user by phone number.\" />\n    <MESSAGE value=\"Finding all users.\" />\n    <MESSAGE value=\"Create new user.\" />\n    <MESSAGE value=\"Create new haircut shop test and find haircut shop by name.\" />\n    <MESSAGE value=\"Code reassortment.\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Code reassortment.\" />\n  </component>\n  <component name=\"WindowStateProjectService\">\n    <state x=\"311\" y=\"58\" width=\"800\" height=\"677\" key=\"#Assign_Data_Sources\" timestamp=\"1585328326023\">\n      <screen x=\"67\" y=\"27\" width=\"1299\" height=\"741\" />\n    </state>\n    <state x=\"311\" y=\"58\" width=\"800\" height=\"677\" key=\"#Assign_Data_Sources/67.27.1299.741/1366.0.1280.1024@67.27.1299.741\" timestamp=\"1585328326023\" />\n    <state x=\"305\" y=\"27\" width=\"827\" height=\"741\" key=\"#HaircutShopApplication_(1)\" timestamp=\"1586438374607\">\n      <screen x=\"67\" y=\"27\" width=\"1299\" height=\"741\" />\n    </state>\n    <state x=\"305\" y=\"27\" width=\"827\" height=\"741\" key=\"#HaircutShopApplication_(1)/67.27.1299.741/1366.0.1280.1024@67.27.1299.741\" timestamp=\"1586438374607\" />\n    <state x=\"311\" y=\"58\" width=\"800\" height=\"677\" key=\"#Notifications\" timestamp=\"1587975596500\">\n      <screen x=\"67\" y=\"27\" width=\"1299\" height=\"741\" />\n    </state>\n    <state x=\"311\" y=\"58\" width=\"800\" height=\"677\" key=\"#Notifications/67.27.1299.741/1366.0.1280.1024@67.27.1299.741\" timestamp=\"1587975596500\" />\n    <state x=\"199\" y=\"27\" width=\"1024\" height=\"741\" key=\"#Project_Structure\" timestamp=\"1588068537515\">\n      <screen x=\"67\" y=\"27\" width=\"1299\" height=\"741\" />\n    </state>\n    <state x=\"199\" y=\"27\" width=\"1024\" height=\"741\" key=\"#Project_Structure/67.27.1299.741/1366.0.1280.1024@67.27.1299.741\" timestamp=\"1588068537515\" />\n    <state x=\"311\" y=\"58\" width=\"800\" height=\"677\" key=\"#com.intellij.execution.impl.EditConfigurationsDialog\" timestamp=\"1585132910793\">\n      <screen x=\"67\" y=\"27\" width=\"1299\" height=\"741\" />\n    </state>\n    <state x=\"311\" y=\"58\" width=\"800\" height=\"677\" key=\"#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1299.741/1366.0.1280.1024@67.27.1299.741\" timestamp=\"1585132910793\" />\n    <state x=\"167\" y=\"125\" width=\"1099\" height=\"543\" key=\"#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog\" timestamp=\"1586604219810\">\n      <screen x=\"67\" y=\"27\" width=\"1299\" height=\"741\" />\n    </state>\n    <state x=\"167\" y=\"125\" width=\"1099\" height=\"543\" key=\"#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/67.27.1299.741/1366.0.1280.1024@67.27.1299.741\" timestamp=\"1586604219810\" />\n    <state x=\"401\" y=\"201\" width=\"621\" height=\"390\" key=\"#com.intellij.fileTypes.FileTypeChooser\" timestamp=\"1585213655922\">\n      <screen x=\"67\" y=\"27\" width=\"1299\" height=\"741\" />\n    </state>\n    <state x=\"401\" y=\"201\" width=\"621\" height=\"390\" key=\"#com.intellij.fileTypes.FileTypeChooser/67.27.1299.741/1366.0.1280.1024@67.27.1299.741\" timestamp=\"1585213655922\" />\n    <state x=\"524\" y=\"104\" width=\"374\" height=\"585\" key=\"#com.intellij.ide.util.MemberChooser\" timestamp=\"1586944946166\">\n      <screen x=\"67\" y=\"27\" width=\"1299\" height=\"741\" />\n    </state>\n    <state x=\"524\" y=\"104\" width=\"374\" height=\"585\" key=\"#com.intellij.ide.util.MemberChooser/67.27.1299.741/1366.0.1280.1024@67.27.1299.741\" timestamp=\"1586944946166\" />\n    <state x=\"557\" y=\"288\" width=\"308\" height=\"216\" key=\"#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog\" timestamp=\"1586096257381\">\n      <screen x=\"67\" y=\"27\" width=\"1299\" height=\"741\" />\n    </state>\n    <state x=\"557\" y=\"288\" width=\"308\" height=\"216\" key=\"#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/67.27.1299.741/1366.0.1280.1024@67.27.1299.741\" timestamp=\"1586096257381\" />\n    <state x=\"212\" y=\"324\" width=\"916\" height=\"145\" key=\"#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog\" timestamp=\"1584812164716\">\n      <screen x=\"67\" y=\"27\" width=\"1299\" height=\"741\" />\n    </state>\n    <state x=\"212\" y=\"324\" width=\"916\" height=\"145\" key=\"#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/67.27.1299.741/1366.0.1280.1024@67.27.1299.741\" timestamp=\"1584812164716\" />\n    <state x=\"469\" y=\"278\" key=\"#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages\" timestamp=\"1584812170965\">\n      <screen x=\"67\" y=\"27\" width=\"1299\" height=\"741\" />\n    </state>\n    <state x=\"469\" y=\"278\" key=\"#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/67.27.1299.741/1366.0.1280.1024@67.27.1299.741\" timestamp=\"1584812170965\" />\n    <state x=\"449\" y=\"145\" width=\"524\" height=\"502\" key=\"#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog\" timestamp=\"1587116590141\">\n      <screen x=\"67\" y=\"27\" width=\"1299\" height=\"741\" />\n    </state>\n    <state x=\"449\" y=\"145\" width=\"524\" height=\"502\" key=\"#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1299.741/1366.0.1280.1024@67.27.1299.741\" timestamp=\"1587116590141\" />\n    <state x=\"474\" y=\"141\" key=\"#xdebugger.evaluate\" timestamp=\"1587034742495\">\n      <screen x=\"67\" y=\"27\" width=\"1299\" height=\"741\" />\n    </state>\n    <state x=\"474\" y=\"141\" key=\"#xdebugger.evaluate/67.27.1299.741/1366.0.1280.1024@67.27.1299.741\" timestamp=\"1587034742495\" />\n    <state x=\"436\" y=\"238\" width=\"550\" height=\"317\" key=\"ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1\" timestamp=\"1586951522642\">\n      <screen x=\"67\" y=\"27\" width=\"1299\" height=\"741\" />\n    </state>\n    <state x=\"436\" y=\"238\" width=\"550\" height=\"317\" key=\"ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/67.27.1299.741/1366.0.1280.1024@67.27.1299.741\" timestamp=\"1586951522642\" />\n    <state x=\"243\" y=\"27\" width=\"860\" height=\"741\" key=\"CommitChangelistDialog2\" timestamp=\"1586181945881\">\n      <screen x=\"67\" y=\"27\" width=\"1299\" height=\"741\" />\n    </state>\n    <state x=\"243\" y=\"27\" width=\"860\" height=\"741\" key=\"CommitChangelistDialog2/67.27.1299.741/1366.0.1280.1024@67.27.1299.741\" timestamp=\"1586181945881\" />\n    <state x=\"710\" y=\"284\" width=\"424\" height=\"484\" key=\"FileChooserDialogImpl\" timestamp=\"1585500694965\">\n      <screen x=\"67\" y=\"27\" width=\"1299\" height=\"741\" />\n    </state>\n    <state x=\"710\" y=\"284\" width=\"424\" height=\"484\" key=\"FileChooserDialogImpl/67.27.1299.741/1366.0.1280.1024@67.27.1299.741\" timestamp=\"1585500694965\" />\n    <state width=\"1253\" height=\"223\" key=\"GridCell.Tab.0.bottom\" timestamp=\"1588070020726\">\n      <screen x=\"67\" y=\"27\" width=\"1299\" height=\"741\" />\n    </state>\n    <state width=\"1253\" height=\"180\" key=\"GridCell.Tab.0.bottom/67.27.1299.741/1366.0.1280.1024@1366.0.1280.1024\" timestamp=\"1586295116461\" />\n    <state width=\"1253\" height=\"223\" key=\"GridCell.Tab.0.bottom/67.27.1299.741/1366.0.1280.1024@67.27.1299.741\" timestamp=\"1588070020726\" />\n    <state width=\"1253\" height=\"223\" key=\"GridCell.Tab.0.center\" timestamp=\"1588070020726\">\n      <screen x=\"67\" y=\"27\" width=\"1299\" height=\"741\" />\n    </state>\n    <state width=\"1253\" height=\"180\" key=\"GridCell.Tab.0.center/67.27.1299.741/1366.0.1280.1024@1366.0.1280.1024\" timestamp=\"1586295116461\" />\n    <state width=\"1253\" height=\"223\" key=\"GridCell.Tab.0.center/67.27.1299.741/1366.0.1280.1024@67.27.1299.741\" timestamp=\"1588070020726\" />\n    <state width=\"1253\" height=\"223\" key=\"GridCell.Tab.0.left\" timestamp=\"1588070020725\">\n      <screen x=\"67\" y=\"27\" width=\"1299\" height=\"741\" />\n    </state>\n    <state width=\"1253\" height=\"180\" key=\"GridCell.Tab.0.left/67.27.1299.741/1366.0.1280.1024@1366.0.1280.1024\" timestamp=\"1586295116460\" />\n    <state width=\"1253\" height=\"223\" key=\"GridCell.Tab.0.left/67.27.1299.741/1366.0.1280.1024@67.27.1299.741\" timestamp=\"1588070020725\" />\n    <state width=\"1253\" height=\"223\" key=\"GridCell.Tab.0.right\" timestamp=\"1588070020726\">\n      <screen x=\"67\" y=\"27\" width=\"1299\" height=\"741\" />\n    </state>\n    <state width=\"1253\" height=\"180\" key=\"GridCell.Tab.0.right/67.27.1299.741/1366.0.1280.1024@1366.0.1280.1024\" timestamp=\"1586295116461\" />\n    <state width=\"1253\" height=\"223\" key=\"GridCell.Tab.0.right/67.27.1299.741/1366.0.1280.1024@67.27.1299.741\" timestamp=\"1588070020726\" />\n    <state width=\"1253\" height=\"223\" key=\"GridCell.Tab.1.bottom\" timestamp=\"1588066204054\">\n      <screen x=\"67\" y=\"27\" width=\"1299\" height=\"741\" />\n    </state>\n    <state width=\"1253\" height=\"223\" key=\"GridCell.Tab.1.bottom/67.27.1299.741/1366.0.1280.1024@67.27.1299.741\" timestamp=\"1588066204054\" />\n    <state width=\"1253\" height=\"223\" key=\"GridCell.Tab.1.center\" timestamp=\"1588066204053\">\n      <screen x=\"67\" y=\"27\" width=\"1299\" height=\"741\" />\n    </state>\n    <state width=\"1253\" height=\"223\" key=\"GridCell.Tab.1.center/67.27.1299.741/1366.0.1280.1024@67.27.1299.741\" timestamp=\"1588066204053\" />\n    <state width=\"1253\" height=\"223\" key=\"GridCell.Tab.1.left\" timestamp=\"1588066204053\">\n      <screen x=\"67\" y=\"27\" width=\"1299\" height=\"741\" />\n    </state>\n    <state width=\"1253\" height=\"223\" key=\"GridCell.Tab.1.left/67.27.1299.741/1366.0.1280.1024@67.27.1299.741\" timestamp=\"1588066204053\" />\n    <state width=\"1253\" height=\"223\" key=\"GridCell.Tab.1.right\" timestamp=\"1588066204053\">\n      <screen x=\"67\" y=\"27\" width=\"1299\" height=\"741\" />\n    </state>\n    <state width=\"1253\" height=\"223\" key=\"GridCell.Tab.1.right/67.27.1299.741/1366.0.1280.1024@67.27.1299.741\" timestamp=\"1588066204053\" />\n    <state width=\"1253\" height=\"216\" key=\"GridCell.Tab.2.bottom\" timestamp=\"1588021612884\">\n      <screen x=\"67\" y=\"27\" width=\"1299\" height=\"741\" />\n    </state>\n    <state width=\"1253\" height=\"216\" key=\"GridCell.Tab.2.bottom/67.27.1299.741/1366.0.1280.1024@67.27.1299.741\" timestamp=\"1588021612884\" />\n    <state width=\"1253\" height=\"216\" key=\"GridCell.Tab.2.center\" timestamp=\"1588021612884\">\n      <screen x=\"67\" y=\"27\" width=\"1299\" height=\"741\" />\n    </state>\n    <state width=\"1253\" height=\"216\" key=\"GridCell.Tab.2.center/67.27.1299.741/1366.0.1280.1024@67.27.1299.741\" timestamp=\"1588021612884\" />\n    <state width=\"1253\" height=\"216\" key=\"GridCell.Tab.2.left\" timestamp=\"1588021612884\">\n      <screen x=\"67\" y=\"27\" width=\"1299\" height=\"741\" />\n    </state>\n    <state width=\"1253\" height=\"216\" key=\"GridCell.Tab.2.left/67.27.1299.741/1366.0.1280.1024@67.27.1299.741\" timestamp=\"1588021612884\" />\n    <state width=\"1253\" height=\"216\" key=\"GridCell.Tab.2.right\" timestamp=\"1588021612884\">\n      <screen x=\"67\" y=\"27\" width=\"1299\" height=\"741\" />\n    </state>\n    <state width=\"1253\" height=\"216\" key=\"GridCell.Tab.2.right/67.27.1299.741/1366.0.1280.1024@67.27.1299.741\" timestamp=\"1588021612884\" />\n    <state x=\"249\" y=\"54\" width=\"924\" height=\"684\" key=\"Maven.ArtifactSearchDialog\" timestamp=\"1587115379688\">\n      <screen x=\"67\" y=\"27\" width=\"1299\" height=\"741\" />\n    </state>\n    <state x=\"249\" y=\"54\" width=\"924\" height=\"684\" key=\"Maven.ArtifactSearchDialog/67.27.1299.741/1366.0.1280.1024@67.27.1299.741\" timestamp=\"1587115379688\" />\n    <state x=\"315\" y=\"196\" width=\"792\" height=\"400\" key=\"RefactorX.RenameTag\" timestamp=\"1586951542444\">\n      <screen x=\"67\" y=\"27\" width=\"1299\" height=\"741\" />\n    </state>\n    <state x=\"315\" y=\"196\" width=\"792\" height=\"400\" key=\"RefactorX.RenameTag/67.27.1299.741/1366.0.1280.1024@67.27.1299.741\" timestamp=\"1586951542444\" />\n    <state x=\"230\" y=\"27\" width=\"1024\" height=\"741\" key=\"SettingsEditor\" timestamp=\"1587116646266\">\n      <screen x=\"67\" y=\"27\" width=\"1299\" height=\"741\" />\n    </state>\n    <state x=\"1534\" y=\"162\" key=\"SettingsEditor/67.27.1299.741/1366.0.1280.1024@1366.0.1280.1024\" timestamp=\"1586781511125\" />\n    <state x=\"230\" y=\"27\" width=\"1024\" height=\"741\" key=\"SettingsEditor/67.27.1299.741/1366.0.1280.1024@67.27.1299.741\" timestamp=\"1587116646266\" />\n    <state x=\"311\" y=\"132\" width=\"800\" height=\"528\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1586108895078\">\n      <screen x=\"67\" y=\"27\" width=\"1299\" height=\"741\" />\n    </state>\n    <state x=\"311\" y=\"132\" width=\"800\" height=\"528\" key=\"Vcs.Push.Dialog.v2/67.27.1299.741/1366.0.1280.1024@67.27.1299.741\" timestamp=\"1586108895078\" />\n    <state width=\"649\" height=\"371\" key=\"XDebugger.FullValuePopup\" timestamp=\"1585327292561\">\n      <screen x=\"67\" y=\"27\" width=\"1299\" height=\"741\" />\n    </state>\n    <state width=\"649\" height=\"371\" key=\"XDebugger.FullValuePopup/67.27.1299.741/1366.0.1280.1024@67.27.1299.741\" timestamp=\"1585327292561\" />\n    <state x=\"372\" y=\"224\" key=\"com.intellij.ide.util.TipDialog\" timestamp=\"1585500995543\">\n      <screen x=\"67\" y=\"27\" width=\"1299\" height=\"741\" />\n    </state>\n    <state x=\"372\" y=\"224\" key=\"com.intellij.ide.util.TipDialog/67.27.1299.741/1366.0.1280.1024@67.27.1299.741\" timestamp=\"1585500995543\" />\n    <state x=\"330\" y=\"78\" width=\"762\" height=\"637\" key=\"com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser\" timestamp=\"1587462921211\">\n      <screen x=\"67\" y=\"27\" width=\"1299\" height=\"741\" />\n    </state>\n    <state x=\"330\" y=\"78\" width=\"762\" height=\"637\" key=\"com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.1299.741/1366.0.1280.1024@67.27.1299.741\" timestamp=\"1587462921211\" />\n    <state x=\"487\" y=\"311\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2\" timestamp=\"1587222596719\">\n      <screen x=\"67\" y=\"27\" width=\"1299\" height=\"741\" />\n    </state>\n    <state x=\"487\" y=\"311\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.27.1299.741/1366.0.1280.1024@67.27.1299.741\" timestamp=\"1587222596719\" />\n    <state x=\"1496\" y=\"91\" width=\"926\" height=\"447\" maximized=\"true\" key=\"dock-window-1\" timestamp=\"1587029191092\">\n      <screen x=\"1366\" y=\"0\" width=\"1280\" height=\"1024\" />\n    </state>\n    <state x=\"1496\" y=\"91\" width=\"926\" height=\"447\" maximized=\"true\" key=\"dock-window-1/67.27.1299.741/1366.0.1280.1024@67.27.1299.741\" timestamp=\"1587029191092\" />\n    <state x=\"1421\" y=\"0\" width=\"926\" height=\"492\" maximized=\"true\" key=\"dock-window-2\" timestamp=\"1587031719838\">\n      <screen x=\"1366\" y=\"0\" width=\"1280\" height=\"1024\" />\n    </state>\n    <state x=\"1421\" y=\"0\" width=\"926\" height=\"492\" maximized=\"true\" key=\"dock-window-2/67.27.1299.741/1366.0.1280.1024@67.27.1299.741\" timestamp=\"1587031719838\" />\n    <state x=\"1433\" y=\"99\" width=\"1213\" height=\"821\" key=\"new project wizard\" timestamp=\"1585499530807\">\n      <screen x=\"1366\" y=\"0\" width=\"1280\" height=\"1024\" />\n    </state>\n    <state x=\"1433\" y=\"99\" width=\"1213\" height=\"821\" key=\"new project wizard/67.27.1299.741/1366.0.1280.1024@1366.0.1280.1024\" timestamp=\"1585499530807\" />\n    <state x=\"67\" y=\"99\" width=\"1289\" height=\"594\" key=\"new project wizard/67.27.1299.741/1366.0.1280.1024@67.27.1299.741\" timestamp=\"1585419526846\" />\n    <state x=\"379\" y=\"89\" width=\"672\" height=\"678\" key=\"search.everywhere.popup\" timestamp=\"1587157312989\">\n      <screen x=\"67\" y=\"27\" width=\"1299\" height=\"741\" />\n    </state>\n    <state x=\"1673\" y=\"86\" width=\"672\" height=\"937\" key=\"search.everywhere.popup/67.27.1299.741/1366.0.1280.1024@1366.0.1280.1024\" timestamp=\"1586781506475\" />\n    <state x=\"379\" y=\"89\" width=\"672\" height=\"678\" key=\"search.everywhere.popup/67.27.1299.741/1366.0.1280.1024@67.27.1299.741\" timestamp=\"1587157312989\" />\n  </component>\n  <component name=\"XDebuggerManager\">\n    <pin-to-top-manager>\n      <pinned-members>\n        <PinnedItemInfo typeName=\"org.springframework.aop.framework.ProxyFactory\" fieldName=\"aopProxyFactory\" />\n        <PinnedItemInfo typeName=\"org.springframework.aop.framework.JdkDynamicAopProxy\" fieldName=\"advised\" />\n      </pinned-members>\n    </pin-to-top-manager>\n    <watches-manager>\n      <configuration name=\"JUnit\">\n        <watch expression=\"haircutShop\" />\n      </configuration>\n    </watches-manager>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 6908cb02b7204360e281b3b221d2f3e71c38b3d6)
++++ .idea/workspace.xml	(date 1588929544730)
+@@ -1,11 +1,36 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="BranchesTreeState">
++    <expand>
++      <path>
++        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++      </path>
++      <path>
++        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++      </path>
++      <path>
++        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
++      </path>
++    </expand>
++    <select />
++  </component>
+   <component name="ChangeListManager">
+     <list default="true" id="4b70dbec-61e5-49f1-93e8-ac16ad10a5cf" name="Default Changelist" comment="">
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_6_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_7_0_M1.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/HaircutShopApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HaircutShopApp.iml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/HaircutShopController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/HaircutShopController.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/dto/HaircutShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/dto/HaircutShop.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/repository/HaircutShopRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/repository/HaircutShopRepository.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/repository/UserRepository.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/services/impl/HaircutShopServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/services/impl/HaircutShopServiceImpl.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/UserServiceTest.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/services/interfaces/HaircutShopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/services/interfaces/HaircutShopService.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog/create-haircutShop-table.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/create-haircutShop-table.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/HaircutShopServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/HaircutShopServiceTest.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -36,7 +61,7 @@
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="code-reassortment" />
++        <entry key="$PROJECT_DIR$" value="master" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+@@ -84,21 +109,21 @@
+     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+   </component>
+   <component name="RecentsManager">
+-    <key name="MoveFile.RECENT_KEYS">
+-      <recent name="$PROJECT_DIR$/src/main/resources" />
+-    </key>
+     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+       <recent name="com.example.demo" />
++    </key>
++    <key name="CopyFile.RECENT_KEYS">
++      <recent name="$PROJECT_DIR$/src/main/resources" />
++      <recent name="$PROJECT_DIR$/src/main/java/com/example/demo/application" />
+     </key>
+     <key name="CopyClassDialog.RECENTS_KEY">
+       <recent name="dto" />
+     </key>
+-    <key name="CopyFile.RECENT_KEYS">
++    <key name="MoveFile.RECENT_KEYS">
+       <recent name="$PROJECT_DIR$/src/main/resources" />
+-      <recent name="$PROJECT_DIR$/src/main/java/com/example/demo/application" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="JUnit.HaircutShopServiceTest.fetchHaircutShopsByDescriptionPriceTest">
++  <component name="RunManager" selected="Spring Boot.HaircutShopApplication">
+     <configuration name="HaircutShopServiceTest.fetchCurrentWorkingHaircutShopTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+       <module name="HaircutShopApp" />
+       <extension name="coverage">
+@@ -257,7 +282,12 @@
+       <workItem from="1587935739498" duration="651000" />
+       <workItem from="1587974826024" duration="8209000" />
+       <workItem from="1588062709448" duration="3701000" />
+-      <workItem from="1588101886239" duration="572000" />
++      <workItem from="1588101886239" duration="1095000" />
++      <workItem from="1588585010514" duration="1349000" />
++      <workItem from="1588922882199" duration="135000" />
++      <workItem from="1588924675733" duration="375000" />
++      <workItem from="1588925135182" duration="2438000" />
++      <workItem from="1588927684390" duration="1086000" />
+     </task>
+     <task id="LOCAL-00001" summary="First use of git, first commit and push.">
+       <created>1585477729410</created>
+@@ -343,11 +373,37 @@
+       <option name="project" value="LOCAL" />
+       <updated>1588069020198</updated>
+     </task>
+-    <option name="localTasksCounter" value="13" />
++    <task id="LOCAL-00013" summary="Code reassortment.">
++      <created>1588102489535</created>
++      <option name="number" value="00013" />
++      <option name="presentableId" value="LOCAL-00013" />
++      <option name="project" value="LOCAL" />
++      <updated>1588102489535</updated>
++    </task>
++    <task id="LOCAL-00014" summary="Code reassortment.">
++      <created>1588102956796</created>
++      <option name="number" value="00014" />
++      <option name="presentableId" value="LOCAL-00014" />
++      <option name="project" value="LOCAL" />
++      <updated>1588102956796</updated>
++    </task>
++    <option name="localTasksCounter" value="15" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+     <option name="version" value="2" />
++  </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State />
++          </value>
++        </entry>
++      </map>
++    </option>
++    <option name="oldMeFiltersMigrated" value="true" />
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="First use of git, first commit and push." />
+@@ -402,6 +458,10 @@
+       <screen x="67" y="27" width="1299" height="741" />
+     </state>
+     <state x="212" y="324" width="916" height="145" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1584812164716" />
++    <state x="466" y="264" width="500" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1588585101202">
++      <screen x="67" y="27" width="1299" height="741" />
++    </state>
++    <state x="466" y="264" width="500" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/67.27.1299.741@67.27.1299.741" timestamp="1588585101202" />
+     <state x="469" y="278" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1584812170965">
+       <screen x="67" y="27" width="1299" height="741" />
+     </state>
+@@ -418,50 +478,50 @@
+       <screen x="67" y="27" width="1299" height="741" />
+     </state>
+     <state x="436" y="238" width="550" height="317" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586951522642" />
+-    <state x="243" y="27" width="860" height="741" key="CommitChangelistDialog2" timestamp="1586181945881">
++    <state x="243" y="27" width="912" height="741" key="CommitChangelistDialog2" timestamp="1588102956544">
+       <screen x="67" y="27" width="1299" height="741" />
+     </state>
+-    <state x="243" y="27" width="860" height="741" key="CommitChangelistDialog2/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586181945881" />
++    <state x="243" y="27" width="912" height="741" key="CommitChangelistDialog2/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1588102956544" />
+     <state x="710" y="284" width="424" height="484" key="FileChooserDialogImpl" timestamp="1585500694965">
+       <screen x="67" y="27" width="1299" height="741" />
+     </state>
+     <state x="710" y="284" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1585500694965" />
+-    <state width="1253" height="223" key="GridCell.Tab.0.bottom" timestamp="1588070020726">
++    <state width="1253" height="246" key="GridCell.Tab.0.bottom" timestamp="1588928736134">
+       <screen x="67" y="27" width="1299" height="741" />
+     </state>
+     <state width="1253" height="180" key="GridCell.Tab.0.bottom/67.27.1299.741/1366.0.1280.1024@1366.0.1280.1024" timestamp="1586295116461" />
+-    <state width="1253" height="223" key="GridCell.Tab.0.bottom/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1588070020726" />
+-    <state width="1253" height="223" key="GridCell.Tab.0.center" timestamp="1588070020726">
++    <state width="1253" height="246" key="GridCell.Tab.0.bottom/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1588928736134" />
++    <state width="1253" height="246" key="GridCell.Tab.0.center" timestamp="1588928736133">
+       <screen x="67" y="27" width="1299" height="741" />
+     </state>
+     <state width="1253" height="180" key="GridCell.Tab.0.center/67.27.1299.741/1366.0.1280.1024@1366.0.1280.1024" timestamp="1586295116461" />
+-    <state width="1253" height="223" key="GridCell.Tab.0.center/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1588070020726" />
+-    <state width="1253" height="223" key="GridCell.Tab.0.left" timestamp="1588070020725">
++    <state width="1253" height="246" key="GridCell.Tab.0.center/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1588928736133" />
++    <state width="1253" height="246" key="GridCell.Tab.0.left" timestamp="1588928736133">
+       <screen x="67" y="27" width="1299" height="741" />
+     </state>
+     <state width="1253" height="180" key="GridCell.Tab.0.left/67.27.1299.741/1366.0.1280.1024@1366.0.1280.1024" timestamp="1586295116460" />
+-    <state width="1253" height="223" key="GridCell.Tab.0.left/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1588070020725" />
+-    <state width="1253" height="223" key="GridCell.Tab.0.right" timestamp="1588070020726">
++    <state width="1253" height="246" key="GridCell.Tab.0.left/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1588928736133" />
++    <state width="1253" height="246" key="GridCell.Tab.0.right" timestamp="1588928736134">
+       <screen x="67" y="27" width="1299" height="741" />
+     </state>
+     <state width="1253" height="180" key="GridCell.Tab.0.right/67.27.1299.741/1366.0.1280.1024@1366.0.1280.1024" timestamp="1586295116461" />
+-    <state width="1253" height="223" key="GridCell.Tab.0.right/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1588070020726" />
+-    <state width="1253" height="223" key="GridCell.Tab.1.bottom" timestamp="1588066204054">
++    <state width="1253" height="246" key="GridCell.Tab.0.right/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1588928736134" />
++    <state width="1253" height="246" key="GridCell.Tab.1.bottom" timestamp="1588928736134">
+       <screen x="67" y="27" width="1299" height="741" />
+     </state>
+-    <state width="1253" height="223" key="GridCell.Tab.1.bottom/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1588066204054" />
+-    <state width="1253" height="223" key="GridCell.Tab.1.center" timestamp="1588066204053">
++    <state width="1253" height="246" key="GridCell.Tab.1.bottom/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1588928736134" />
++    <state width="1253" height="246" key="GridCell.Tab.1.center" timestamp="1588928736134">
+       <screen x="67" y="27" width="1299" height="741" />
+     </state>
+-    <state width="1253" height="223" key="GridCell.Tab.1.center/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1588066204053" />
+-    <state width="1253" height="223" key="GridCell.Tab.1.left" timestamp="1588066204053">
++    <state width="1253" height="246" key="GridCell.Tab.1.center/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1588928736134" />
++    <state width="1253" height="246" key="GridCell.Tab.1.left" timestamp="1588928736134">
+       <screen x="67" y="27" width="1299" height="741" />
+     </state>
+-    <state width="1253" height="223" key="GridCell.Tab.1.left/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1588066204053" />
+-    <state width="1253" height="223" key="GridCell.Tab.1.right" timestamp="1588066204053">
++    <state width="1253" height="246" key="GridCell.Tab.1.left/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1588928736134" />
++    <state width="1253" height="246" key="GridCell.Tab.1.right" timestamp="1588928736134">
+       <screen x="67" y="27" width="1299" height="741" />
+     </state>
+-    <state width="1253" height="223" key="GridCell.Tab.1.right/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1588066204053" />
++    <state width="1253" height="246" key="GridCell.Tab.1.right/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1588928736134" />
+     <state width="1253" height="216" key="GridCell.Tab.2.bottom" timestamp="1588021612884">
+       <screen x="67" y="27" width="1299" height="741" />
+     </state>
+@@ -486,15 +546,15 @@
+       <screen x="67" y="27" width="1299" height="741" />
+     </state>
+     <state x="315" y="196" width="792" height="400" key="RefactorX.RenameTag/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586951542444" />
+-    <state x="230" y="27" width="1024" height="741" key="SettingsEditor" timestamp="1587116646266">
++    <state x="230" y="27" width="1024" height="741" key="SettingsEditor" timestamp="1588927591615">
+       <screen x="67" y="27" width="1299" height="741" />
+     </state>
+     <state x="1534" y="162" key="SettingsEditor/67.27.1299.741/1366.0.1280.1024@1366.0.1280.1024" timestamp="1586781511125" />
+-    <state x="230" y="27" width="1024" height="741" key="SettingsEditor/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1587116646266" />
+-    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1586108895078">
++    <state x="230" y="27" width="1024" height="741" key="SettingsEditor/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1588927591615" />
++    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1588102966289">
+       <screen x="67" y="27" width="1299" height="741" />
+     </state>
+-    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1586108895078" />
++    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1588102966289" />
+     <state width="649" height="371" key="XDebugger.FullValuePopup" timestamp="1585327292561">
+       <screen x="67" y="27" width="1299" height="741" />
+     </state>
+@@ -519,16 +579,20 @@
+       <screen x="1366" y="0" width="1280" height="1024" />
+     </state>
+     <state x="1421" y="0" width="926" height="492" maximized="true" key="dock-window-2/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1587031719838" />
++    <state x="67" y="27" width="618" height="741" key="find.popup" timestamp="1588922969781">
++      <screen x="67" y="27" width="1299" height="741" />
++    </state>
++    <state x="67" y="27" width="618" height="741" key="find.popup/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1588922969781" />
+     <state x="1433" y="99" width="1213" height="821" key="new project wizard" timestamp="1585499530807">
+       <screen x="1366" y="0" width="1280" height="1024" />
+     </state>
+     <state x="1433" y="99" width="1213" height="821" key="new project wizard/67.27.1299.741/1366.0.1280.1024@1366.0.1280.1024" timestamp="1585499530807" />
+     <state x="67" y="99" width="1289" height="594" key="new project wizard/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1585419526846" />
+-    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1587157312989">
++    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1588928017884">
+       <screen x="67" y="27" width="1299" height="741" />
+     </state>
+     <state x="1673" y="86" width="672" height="937" key="search.everywhere.popup/67.27.1299.741/1366.0.1280.1024@1366.0.1280.1024" timestamp="1586781506475" />
+-    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1587157312989" />
++    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1588928017884" />
+   </component>
+   <component name="XDebuggerManager">
+     <pin-to-top-manager>
+Index: target/classes/db/changelog/create-haircutShop-table.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<databaseChangeLog\n        xmlns=\"http://www.liquibase.org/xml/ns/dbchangelog\"\n        xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n        xsi:schemaLocation=\"http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd\">\n\n    <changeSet id=\"01\" author=\"postgres\">\n\n        <createSequence schemaName=\"public\" startValue=\"1\" incrementBy=\"1\" sequenceName=\"seq_haircut_shop\"/>\n\n        <createTable tableName=\"haircut_shop\"\n                     remarks=\"A table to contain all haircut_shop\">\n\n            <column name=\"haircut_shop_id\" type=\"int\" defaultValueSequenceNext=\"seq_haircut_shop\">\n                <constraints nullable=\"false\" unique=\"true\" primaryKey=\"true\" primaryKeyName=\"pk_haircut_shop\"/>\n            </column>\n\n            <column name=\"haircut_shop_name\" type=\"varchar(255)\">\n                <constraints nullable=\"false\" unique=\"false\"/>\n            </column>\n            <column name=\"haircut_shop_address\" type=\"varchar(255)\">\n                <constraints nullable=\"false\" unique=\"false\"/>\n            </column>\n            <column name=\"haircut_shop_phone_number\" type=\"varchar(255)\">\n                <constraints nullable=\"false\" unique=\"true\"/>\n            </column>\n            <column name=\"haircut_shop_email\" type=\"varchar(255)\">\n                <constraints nullable=\"false\" unique=\"true\"/>\n            </column>\n            <column name=\"haircut_shop_description_prices\" type=\"varchar(255)\">\n                <constraints nullable=\"false\" unique=\"false\"/>\n            </column>\n            <column name=\"haircut_shop_password\" type=\"varchar(255)\">\n                <constraints nullable=\"false\" unique=\"false\"/>\n            </column>\n            <column name=\"start_work_time\" type=\"int\">\n                <constraints nullable=\"false\" unique=\"false\"/>\n            </column>\n            <column name=\"end_work_time\" type=\"int\">\n                <constraints nullable=\"false\" unique=\"false\"/>\n            </column>\n        </createTable>\n    </changeSet>\n\n</databaseChangeLog>\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- target/classes/db/changelog/create-haircutShop-table.xml	(revision 6908cb02b7204360e281b3b221d2f3e71c38b3d6)
++++ target/classes/db/changelog/create-haircutShop-table.xml	(date 1588929576847)
+@@ -11,26 +11,26 @@
+         <createTable tableName="haircut_shop"
+                      remarks="A table to contain all haircut_shop">
+ 
+-            <column name="haircut_shop_id" type="int" defaultValueSequenceNext="seq_haircut_shop">
++            <column name="id" type="int" defaultValueSequenceNext="seq_haircut_shop">
+                 <constraints nullable="false" unique="true" primaryKey="true" primaryKeyName="pk_haircut_shop"/>
+             </column>
+ 
+-            <column name="haircut_shop_name" type="varchar(255)">
++            <column name="name" type="varchar(255)">
+                 <constraints nullable="false" unique="false"/>
+             </column>
+-            <column name="haircut_shop_address" type="varchar(255)">
++            <column name="address" type="varchar(255)">
+                 <constraints nullable="false" unique="false"/>
+             </column>
+-            <column name="haircut_shop_phone_number" type="varchar(255)">
++            <column name="phone_number" type="varchar(255)">
+                 <constraints nullable="false" unique="true"/>
+             </column>
+-            <column name="haircut_shop_email" type="varchar(255)">
++            <column name="email" type="varchar(255)">
+                 <constraints nullable="false" unique="true"/>
+             </column>
+-            <column name="haircut_shop_description_prices" type="varchar(255)">
++            <column name="description_prices" type="varchar(255)">
+                 <constraints nullable="false" unique="false"/>
+             </column>
+-            <column name="haircut_shop_password" type="varchar(255)">
++            <column name="password" type="varchar(255)">
+                 <constraints nullable="false" unique="false"/>
+             </column>
+             <column name="start_work_time" type="int">
