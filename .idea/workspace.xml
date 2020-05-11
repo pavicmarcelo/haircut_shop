@@ -19,23 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b70dbec-61e5-49f1-93e8-ac16ad10a5cf" name="Default Changelist" comment="Renaming column names.">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/repository/HaircutShopAccommodationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/services/impl/HaircutShopAccommodationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/services/interfaces/HaircutShopAccommodationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/HaircutShopAccommodationServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/HaircutShopServicesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/HaircutShopAccommodationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/dto/HaircutShopServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/dto/HaircutShopAccommodation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/repository/HaircutShopServicesRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/services/impl/HaircutShopServicesServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/services/interfaces/HaircutShopServicesService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog/create-haircut-shop-services-table.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/create-haircut-shop-accommodation-table.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/liquibase-changelog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/liquibase-changelog.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/HaircutShopServicesTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db/liquibase-changelog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db/liquibase-changelog.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4b70dbec-61e5-49f1-93e8-ac16ad10a5cf" name="Default Changelist" comment="Creating haircut shop accommodation update accommodation name." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -402,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589016078224</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Creating haircut shop accommodation update accommodation name.">
+      <created>1589212521569</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1589212521569</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -431,7 +422,8 @@
     <MESSAGE value="Create new haircut shop test and find haircut shop by name." />
     <MESSAGE value="Code reassortment." />
     <MESSAGE value="Renaming column names." />
-    <option name="LAST_COMMIT_MESSAGE" value="Renaming column names." />
+    <MESSAGE value="Creating haircut shop accommodation update accommodation name." />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating haircut shop accommodation update accommodation name." />
   </component>
   <component name="WindowStateProjectService">
     <state x="311" y="58" width="800" height="677" key="#Assign_Data_Sources" timestamp="1585328326023">
@@ -507,42 +499,42 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="710" y="284" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1585500694965" />
-    <state width="1253" height="158" key="GridCell.Tab.0.bottom" timestamp="1589211804781">
+    <state width="1253" height="90" key="GridCell.Tab.0.bottom" timestamp="1589212341611">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state width="1253" height="180" key="GridCell.Tab.0.bottom/67.27.1299.741/1366.0.1280.1024@1366.0.1280.1024" timestamp="1586295116461" />
-    <state width="1253" height="158" key="GridCell.Tab.0.bottom/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1589211804781" />
-    <state width="1253" height="158" key="GridCell.Tab.0.center" timestamp="1589211804780">
+    <state width="1253" height="90" key="GridCell.Tab.0.bottom/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1589212341611" />
+    <state width="1253" height="90" key="GridCell.Tab.0.center" timestamp="1589212341610">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state width="1253" height="180" key="GridCell.Tab.0.center/67.27.1299.741/1366.0.1280.1024@1366.0.1280.1024" timestamp="1586295116461" />
-    <state width="1253" height="158" key="GridCell.Tab.0.center/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1589211804780" />
-    <state width="1253" height="158" key="GridCell.Tab.0.left" timestamp="1589211804780">
+    <state width="1253" height="90" key="GridCell.Tab.0.center/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1589212341610" />
+    <state width="1253" height="90" key="GridCell.Tab.0.left" timestamp="1589212341610">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state width="1253" height="180" key="GridCell.Tab.0.left/67.27.1299.741/1366.0.1280.1024@1366.0.1280.1024" timestamp="1586295116460" />
-    <state width="1253" height="158" key="GridCell.Tab.0.left/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1589211804780" />
-    <state width="1253" height="158" key="GridCell.Tab.0.right" timestamp="1589211804781">
+    <state width="1253" height="90" key="GridCell.Tab.0.left/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1589212341610" />
+    <state width="1253" height="90" key="GridCell.Tab.0.right" timestamp="1589212341611">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state width="1253" height="180" key="GridCell.Tab.0.right/67.27.1299.741/1366.0.1280.1024@1366.0.1280.1024" timestamp="1586295116461" />
-    <state width="1253" height="158" key="GridCell.Tab.0.right/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1589211804781" />
-    <state width="1253" height="158" key="GridCell.Tab.1.bottom" timestamp="1589211804782">
+    <state width="1253" height="90" key="GridCell.Tab.0.right/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1589212341611" />
+    <state width="1253" height="90" key="GridCell.Tab.1.bottom" timestamp="1589212341611">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="158" key="GridCell.Tab.1.bottom/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1589211804781" />
-    <state width="1253" height="158" key="GridCell.Tab.1.center" timestamp="1589211804781">
+    <state width="1253" height="90" key="GridCell.Tab.1.bottom/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1589212341611" />
+    <state width="1253" height="90" key="GridCell.Tab.1.center" timestamp="1589212341611">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="158" key="GridCell.Tab.1.center/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1589211804781" />
-    <state width="1253" height="158" key="GridCell.Tab.1.left" timestamp="1589211804781">
+    <state width="1253" height="90" key="GridCell.Tab.1.center/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1589212341611" />
+    <state width="1253" height="90" key="GridCell.Tab.1.left" timestamp="1589212341611">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="158" key="GridCell.Tab.1.left/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1589211804781" />
-    <state width="1253" height="158" key="GridCell.Tab.1.right" timestamp="1589211804781">
+    <state width="1253" height="90" key="GridCell.Tab.1.left/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1589212341611" />
+    <state width="1253" height="90" key="GridCell.Tab.1.right" timestamp="1589212341611">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="158" key="GridCell.Tab.1.right/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1589211804781" />
+    <state width="1253" height="90" key="GridCell.Tab.1.right/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1589212341611" />
     <state width="1253" height="216" key="GridCell.Tab.2.bottom" timestamp="1588021612884">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -572,10 +564,10 @@
     </state>
     <state x="1534" y="162" key="SettingsEditor/67.27.1299.741/1366.0.1280.1024@1366.0.1280.1024" timestamp="1586781511125" />
     <state x="230" y="27" width="1024" height="741" key="SettingsEditor/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1588927591615" />
-    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1589016089540">
+    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1589212633467">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1589016089540" />
+    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1299.741/1366.0.1280.1024@67.27.1299.741" timestamp="1589212633467" />
     <state width="649" height="371" key="XDebugger.FullValuePopup" timestamp="1585327292561">
       <screen x="67" y="27" width="1299" height="741" />
     </state>

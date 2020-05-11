@@ -1,0 +1,17 @@
+Index: target/classes/db/liquibase-changelog.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n\n<databaseChangeLog\n        xmlns=\"http://www.liquibase.org/xml/ns/dbchangelog\"\n        xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n        xsi:schemaLocation=\"http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd\">\n\n\n    <include file=\"changelog/create-user-table.xml\" relativeToChangelogFile=\"true\"/>\n    <include file=\"changelog/create-haircutShop-table.xml\" relativeToChangelogFile=\"true\"/>\n    <include file=\"changelog/fill-user-table-with-users.xml\" relativeToChangelogFile=\"true\"/>\n\n</databaseChangeLog>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- target/classes/db/liquibase-changelog.xml	(revision 7bd805eae7b7f0fe5d84deb3cf6da2c72529029d)
++++ target/classes/db/liquibase-changelog.xml	(date 1589187559307)
+@@ -9,5 +9,6 @@
+     <include file="changelog/create-user-table.xml" relativeToChangelogFile="true"/>
+     <include file="changelog/create-haircutShop-table.xml" relativeToChangelogFile="true"/>
+     <include file="changelog/fill-user-table-with-users.xml" relativeToChangelogFile="true"/>
++    <include file="changelog/create-haircut-shop-services-table.xml" relativeToChangelogFile="true"/>
+ 
+ </databaseChangeLog>
+\ No newline at end of file
