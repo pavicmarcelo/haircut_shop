@@ -9,6 +9,6 @@
     <include file="changelog/create-user-table.xml" relativeToChangelogFile="true"/>
     <include file="changelog/create-haircutShop-table.xml" relativeToChangelogFile="true"/>
     <include file="changelog/fill-user-table-with-users.xml" relativeToChangelogFile="true"/>
-    <include file="changelog/create-haircut-shop-services-table.xml" relativeToChangelogFile="true"/>
+    <include file="changelog/create-haircut-shop-accommodation-table.xml" relativeToChangelogFile="true"/>
 
 </databaseChangeLog>

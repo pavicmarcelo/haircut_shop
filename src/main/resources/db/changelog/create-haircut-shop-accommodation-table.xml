@@ -6,16 +6,16 @@
 
     <changeSet id="01" author="postgres">
 
-        <createSequence schemaName="public" startValue="1" incrementBy="1" sequenceName="seq_haircut_shop_services"/>
+        <createSequence schemaName="public" startValue="1" incrementBy="1" sequenceName="seq_haircut_shop_accommodation"/>
 
-        <createTable tableName="haircut_shop_services"
-                    remarks="A table to contain all haircut_shop_services">
+        <createTable tableName="haircut_shop_accommodation"
+                    remarks="A table to contain all haircut_shop_accommodation">
 
-            <column name="haircut_shop_services_id" type="int" defaultValueSequenceNext="haircut_shop_services">
-                <constraints nullable="false" unique="true" primaryKey="true" primaryKeyName="pk_haircut_shop_services"/>
+            <column name="haircut_shop_accommodation_id" type="int" defaultValueSequenceNext="haircut_shop_accommodation">
+                <constraints nullable="false" unique="true" primaryKey="true" primaryKeyName="pk_haircut_shop_accommodation"/>
             </column>
 
-            <column name="services_name" type="varchar(255)">
+            <column name="accommodation_name" type="varchar(255)">
                 <constraints nullable="false" unique="false"/>
             </column>
             <column name="price" type="double">
