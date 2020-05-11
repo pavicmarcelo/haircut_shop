@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <changeSet id="01" author="postgres">
+
+        <createSequence schemaName="public" startValue="1" incrementBy="1" sequenceName="seq_haircut_shop_services"/>
+
+        <createTable tableName="haircut_shop_services"
+                    remarks="A table to contain all haircut_shop_services">
+
+            <column name="haircut_shop_services_id" type="int" defaultValueSequenceNext="haircut_shop_services">
+                <constraints nullable="false" unique="true" primaryKey="true" primaryKeyName="pk_haircut_shop_services"/>
+            </column>
+
+            <column name="services_name" type="varchar(255)">
+                <constraints nullable="false" unique="false"/>
+            </column>
+            <column name="price" type="real">
+                <constraints nullable="false" unique="false"/>
+            </column>
+            <column name="description" type="varchar(255)">
+                <constraints nullable="false" unique="false"/>
+            </column>
+            <column name="haircut_shop_id" type="int">
+                <constraints nullable="false" unique="false" foreignKeyName="haircut_shop_id"/>
+            </column>
+
+        </createTable>
+
+    </changeSet>
+
+</databaseChangeLog>
