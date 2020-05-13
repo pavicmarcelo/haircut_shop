@@ -7,6 +7,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
 import javax.transaction.Transactional;
+import java.util.List;
 
 public interface HaircutShopAccommodationRepository extends JpaRepository<HaircutShopAccommodation, Integer> {
 
@@ -15,5 +16,9 @@ public interface HaircutShopAccommodationRepository extends JpaRepository<Haircu
     @Transactional
     @Query("UPDATE HaircutShopAccommodation hs set hs.accommodationName = :accommodationName WHERE hs.haircutShopAccommodationId = :haircutShopAccommodationId")
     int updateHaircutShopAccommodationName(@Param("haircutShopAccommodationId") Integer haircutShopAccommodationId, @Param("accommodationName") String accommodationName);
+
+    List<HaircutShopAccommodation> findHaircutShopAccommodationByHaircutShopId(Integer haircutShopId);
+
+
 
 }
