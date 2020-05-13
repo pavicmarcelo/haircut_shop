@@ -8,6 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @RestController
 @Validated
 @Slf4j
@@ -32,6 +34,12 @@ public class HaircutShopAccommodationController {
     void updateHaircutShopAccommodationName(@PathVariable(value = "haircutShopAccommodationId") Integer haircutShopAccommodationId, @RequestBody String accommodationName) {
 
         haircutShopAccommodationService.updateHaircutShopAccommodationServicesName(accommodationName, haircutShopAccommodationId);
+    }
+
+    @RequestMapping(value = "/haircutShopAccommodation/{haircutShopId}/listAllAccommodation", method = RequestMethod.GET, produces = "application/json;charset=UTF-8", consumes = "application/json;")
+    public @ResponseBody
+    List<HaircutShopAccommodation> findHaircutShopAccommodationByHaircutShopId(@PathVariable(value = "haircutShopId") Integer haircutShopId){
+        return haircutShopAccommodationService.fetchAllHaircutShopAccommodationByHaircutShopId(haircutShopId);
     }
 
 }

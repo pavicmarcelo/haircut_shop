@@ -5,6 +5,8 @@ import com.example.demo.repository.HaircutShopAccommodationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class HaircutShopAccommodationServiceImpl {
 
@@ -25,5 +27,12 @@ public class HaircutShopAccommodationServiceImpl {
 
             haircutShopAccommodationRepository.updateHaircutShopAccommodationName(haircutShopAccommodationId, haircutShopAccommodation);
         }
+    }
+
+    public List<HaircutShopAccommodation> fetchAllHaircutShopAccommodationByHaircutShopId(Integer haircutShopId) {
+
+        List<HaircutShopAccommodation> listOfAllAccommodations = haircutShopAccommodationRepository.findHaircutShopAccommodationByHaircutShopId(haircutShopId);
+
+        return listOfAllAccommodations;
     }
 }
