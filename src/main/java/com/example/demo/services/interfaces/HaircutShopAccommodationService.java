@@ -12,4 +12,5 @@ public interface HaircutShopAccommodationService {
 
     List<HaircutShopAccommodation> fetchAllHaircutShopAccommodationByHaircutShopId(Integer haircutShopId);
 
+    List<HaircutShopAccommodation> fetchAllHaircutShopAccommodationByPriceRange(Double priceStarting, Double priceEnding);
 }

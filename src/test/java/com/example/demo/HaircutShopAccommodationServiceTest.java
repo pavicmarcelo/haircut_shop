@@ -61,4 +61,13 @@ public class HaircutShopAccommodationServiceTest {
 
     }
 
+    @Test
+    public void fetchHaircutShopAccommodationByPriceRangeTest() {
+
+        List<HaircutShopAccommodation> listOfHaircutShopAccommodation = haircutShopAccommodationService.fetchAllHaircutShopAccommodationByPriceRange(100.0, 500.5);
+
+        Assert.assertTrue(listOfHaircutShopAccommodation.size() == 2);
+    }
+
+
 }

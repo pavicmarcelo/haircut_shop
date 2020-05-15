@@ -35,4 +35,16 @@ public class HaircutShopAccommodationServiceImpl {
 
         return listOfAllAccommodations;
     }
+
+    public List<HaircutShopAccommodation> fetchAllHaircutShopAccommodationByPriceRange(Double priceStarting, Double priceEnding) {
+
+        List<HaircutShopAccommodation> listOfAllAccommodation = haircutShopAccommodationRepository.findHaircutShopAccommodationByPriceBetween(priceStarting, priceEnding);
+
+        return listOfAllAccommodation;
+//        if(priceEnding != null && priceStarting != null) {
+//            for()
+//        }
+
+    }
+
 }

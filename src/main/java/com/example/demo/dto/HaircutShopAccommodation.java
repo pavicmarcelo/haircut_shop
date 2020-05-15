@@ -27,4 +27,5 @@ public class HaircutShopAccommodation {
     @Column(name = "haircut_shop_id")
     Integer haircutShopId;
 
+
 }

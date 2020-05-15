@@ -42,4 +42,10 @@ public class HaircutShopAccommodationController {
         return haircutShopAccommodationService.fetchAllHaircutShopAccommodationByHaircutShopId(haircutShopId);
     }
 
+    @RequestMapping(value = "/haircutShopAccommodation/{priceStarting}/{priceEnding}/listAllAccommodationInPriceRange", method = RequestMethod.GET, produces = "application/json;charset=UTF-8")
+    public @ResponseBody
+    List<HaircutShopAccommodation> findHaircutShopAccommodationByPriceRange(@PathVariable(value = "priceStarting") Double priceStarting, @PathVariable(value = "priceEnding") Double priceEnding) {
+        return haircutShopAccommodationService.fetchAllHaircutShopAccommodationByPriceRange(priceStarting, priceEnding);
+    }
+
 }
