@@ -19,6 +19,6 @@ public interface HaircutShopAccommodationRepository extends JpaRepository<Haircu
 
     List<HaircutShopAccommodation> findHaircutShopAccommodationByHaircutShopId(Integer haircutShopId);
 
-
+    List<HaircutShopAccommodation> findHaircutShopAccommodationByPriceBetween(Double priceStarting, Double priceEnding);
 
 }
